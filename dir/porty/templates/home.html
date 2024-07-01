@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DMAC Portfolio</title>
+        <link rel="stylesheet" href="{% static 'styles/achievements.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/contact.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/general.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/header.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/intro.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/projects.css' %}">
+    </head>
+    <body id="home">
+        <header class="header-container">
+            <a class="link" href="#home">
+                Home
+            </a>
+            <a class="link" href="#achievements">
+                Achievements
+            </a>
+            <a class="link" href="#projects">
+                Projects
+            </a>
+            <a class="link" href="#contact">
+                Contact Me
+            </a>
+        </header>
+        <div class="intro-section-container">
+            <div class="intro-container">
+                <p>
+                    Hello, my name is 
+                </p>
+                <p>
+                    Dominic Catania.
+                </p>
+                <p>
+                    I am a software engineer, specializing in
+                </p>
+                <div class="specializations-container">
+
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo" src="{% static 'images/logo.png' %}" alt="DMAC">
+            </div>
+        </div>
+        <div class="achievements-container" id="achievements">
+            <h1 class="achievements-label">
+                Achievements
+            </h1>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+    
+                </div>
+                <div class="achievement-card">
+    
+                </div>
+                <div class="achievement-card">
+    
+                </div>
+                <div class="achievement-card">
+    
+                </div>
+            </div>
+        </div>
+        <div class="projects-container" id="projects">
+            <h1 class="projects-label">
+                Featured Projects
+            </h1>
+            <div class="project-card">
+
+            </div>
+            <div class="project-card">
+
+            </div>
+            <div class="project-card">
+
+            </div>
+            <div class="project-card">
+
+            </div>
+        </div>
+        <footer class="contact-container" id="contact">
+            <h1 class="contact-label">
+                Contact ME here!
+            </h1>
+            <div class="info-container">
+
+            </div>
+        </footer>
+    </body>
+</html>

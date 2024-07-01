@@ -1,0 +1,17 @@
+.header-container {
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-color: rgb(255, 232, 232);
+    background-color: rgb(50, 50, 50);
+}
+.link {
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+}
