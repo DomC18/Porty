@@ -10,7 +10,6 @@
     align-content: center;
 }
 .hello-label, .name-label, .job-label {
-    color: white;
     margin-left: 50px;
 }
 .hello-label {
