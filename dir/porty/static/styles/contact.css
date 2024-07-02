@@ -1,4 +1,9 @@
+.contact-label {
+    margin-left: 25px;
+    text-align: center;
+}
 .contact-container {
     width: auto;
+    margin-top: 200px;
     height: 800px;
 }
