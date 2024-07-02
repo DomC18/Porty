@@ -11,10 +11,16 @@
         <link rel="stylesheet" href="{% static 'styles/header.css' %}">
         <link rel="stylesheet" href="{% static 'styles/intro.css' %}">
         <link rel="stylesheet" href="{% static 'styles/projects.css' %}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body id="home">
         <header class="header-container">
-            <a class="link" href="#home">
+            <a style="margin-left: 15px; margin-right: 0px;" class="link" href="#home">
                 Home
             </a>
             <a class="link" href="#achievements">
@@ -23,27 +29,49 @@
             <a class="link" href="#projects">
                 Projects
             </a>
-            <a class="link" href="#contact">
+            <a style="margin-right: 15px;" class="link" href="#contact">
                 Contact Me
             </a>
         </header>
         <div class="intro-section-container">
             <div class="intro-container">
-                <p>
+                <p class="hello-label">
                     Hello, my name is 
                 </p>
-                <p>
-                    Dominic Catania.
+                <p class="name-label">
+                    Dominic Catania,
                 </p>
-                <p>
-                    I am a software engineer, specializing in
+                <p class="job-label">
+                    An aspiring software engineer proficient in
                 </p>
                 <div class="specializations-container">
-
+                    <div class="specialization-div">
+                        <img class="specialization-image" src="{% static 'images/html.png' %}" alt="">
+                    </div>
+                    <div class="specialization-div">
+                        <img class="specialization-image" src="{% static 'images/css.png' %}" alt="">
+                    </div>
+                    <div class="specialization-div">
+                        <a href="https://www.python.org/">
+                            <img class="specialization-image" src="{% static 'images/python.png' %}" alt="">
+                        </a>
+                    </div>
+                    <div class="specialization-div">
+                        <a style="margin-left: 12px;" href="https://www.djangoproject.com/">
+                            <img class="specialization-image" src="{% static 'images/django.png' %}" alt="">
+                        </a>
+                    </div>
+                    <div class="specialization-div">
+                        <a href="https://www.java.com/en/">
+                            <img class="specialization-image" src="{% static 'images/java.png' %}" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="logo-container">
-                <img class="logo" src="{% static 'images/logo.png' %}" alt="DMAC">
+                <a href="#home">
+                    <img class="logo" src="{% static 'images/logo.png' %}" alt="DMAC">
+                </a>
             </div>
         </div>
         <div class="achievements-container" id="achievements">

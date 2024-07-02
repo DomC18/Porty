@@ -2,12 +2,43 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: auto;
-    height: 1500px;
-    padding-top: 55px;
+    height: 1000px;
 }
 .intro-container{
     left: 0%;
     display: inline-block;
+    align-content: center;
+}
+.hello-label, .name-label, .job-label {
+    color: white;
+    margin-left: 50px;
+}
+.hello-label {
+    font-size: 62px;
+    margin-bottom: 0px;
+}
+.name-label {
+    margin-top: 0px;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.job-label {
+    margin-top: 28px;
+    font-size: 28px;
+}
+.specializations-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.specialization-div {
+    flex: 1;
+}
+.specialization-image {
+    max-width: 100%;
 }
 .logo-container {
     right: 0%;
