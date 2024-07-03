@@ -11,8 +11,9 @@
     background-color: rgb(50, 50, 50);
 }
 .link {
-    color: white;
+    color: rgb(255, 250, 205);
     font-size: 20px;
+    margin-left: 20px;
 }
 .small-logo {
     width: 100px;
