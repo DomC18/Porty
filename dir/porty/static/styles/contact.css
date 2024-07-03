@@ -1,9 +1,33 @@
+.contact-container {
+    width: auto;
+    margin-top: 250px;
+    height: 500px;
+}
 .contact-label {
     margin-left: 25px;
     text-align: center;
+    font-size: 70px;
 }
-.contact-container {
-    width: auto;
-    margin-top: 200px;
-    height: 800px;
+.cards-container {
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-card {
+    height: 300px;
+}
+.contact-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contact-spec {
+    font-size: 20px;
+}
+.contact-link {
+    color: white;
 }

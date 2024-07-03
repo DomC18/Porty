@@ -20,9 +20,11 @@
     </head>
     <body id="home">
         <header class="header-container">
-            <a style="margin-left: 15px; margin-right: 0px;" class="link" href="#home">
-                Home
-            </a>
+            <div>
+                <a href="#home">
+                    <img class="small-logo" src="{% static 'images/logo.png' %}" alt="DMAC">
+                </a>
+            </div>
             <a class="link" href="#achievements">
                 Achievements
             </a>
@@ -46,23 +48,27 @@
                 </p>
                 <div class="specializations-container">
                     <div class="specialization-div">
-                        <img class="specialization-image" src="{% static 'images/html.png' %}" alt="">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                            <img class="specialization-image" src="{% static 'images/html.png' %}" alt="">
+                        </a>
                     </div>
                     <div class="specialization-div">
-                        <img class="specialization-image" src="{% static 'images/css.png' %}" alt="">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                            <img class="specialization-image" src="{% static 'images/css.png' %}" alt="">
+                        </a>
                     </div>
                     <div class="specialization-div">
-                        <a href="https://www.python.org/">
+                        <a href="https://www.python.org/" target="_blank">
                             <img class="specialization-image" src="{% static 'images/python.png' %}" alt="">
                         </a>
                     </div>
                     <div class="specialization-div">
-                        <a style="margin-left: 12px;" href="https://www.djangoproject.com/">
+                        <a style="margin-left: 12px;" href="https://www.djangoproject.com/" target="_blank">
                             <img class="specialization-image" src="{% static 'images/django.png' %}" alt="">
                         </a>
                     </div>
                     <div class="specialization-div">
-                        <a href="https://www.java.com/en/">
+                        <a href="https://www.java.com/en/" target="_blank">
                             <img class="specialization-image" src="{% static 'images/java.png' %}" alt="">
                         </a>
                     </div>
@@ -178,18 +184,41 @@
                 <div class="project-card">
                     <div class="project-basics">
                         <p class="project-title">
-                            GradeCalc
+                            Carson
                         </p>
-                        <a href="#projects">
-                            <img class="project-image" src="{% static 'images/gradecalc.png' %}" alt="Lean Image">
+                        <a href="https://www.thebluealliance.com/team/4206/2024" target="_blank">
+                            <img class="project-image" src="{% static 'images/robot2024.png' %}" alt="Lean Image">
                         </a>
                     </div>
                     <div class="project-specs">
                         <p class="project-description">
-                            Python calculator application including section and percent customization
+                            Java robot program for the 2024 FRC game, capable
+                            of distance interpolation and locking to game targets using
+                            AprilTag IDs, autonomous routines with decision-making, and auto-pickup
+                            of game pieces
                         </p>
                         <p class="project-duration">
-                            May 2023 - June 2023
+                            January 2024 - April 2024
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-basics">
+                        <p class="project-title">
+                            Fonix
+                        </p>
+                        <a href="https://www.thebluealliance.com/team/4206/2023" target="_blank">
+                            <img class="project-image" src="{% static 'images/robot2023.jpg' %}" alt="Lean Image">
+                        </a>
+                    </div>
+                    <div class="project-specs">
+                        <p class="project-description">
+                            Java robot program for the 2023 FRC game, full-field localization
+                            and pose estimation using inverse kinematics and AprilTag IDs,
+                            autonomous routines with decision-making, auto-pickup, auto-score
+                        </p>
+                        <p class="project-duration">
+                            January 2023 - April 2023
                         </p>
                     </div>
                 </div>
@@ -197,10 +226,65 @@
         </div>
         <footer class="contact-container" id="contact">
             <h1 class="contact-label">
-                Contact ME here!
+                Contact me here!
             </h1>
-            <div class="info-container">
-
+            <div class="cards-container">
+                <div class="contact-card" style="margin-left: 16px;">
+                    <img class="contact-image" src="{% static 'images/phoneinvert.png' %}" alt="Phone Number">
+                    <p class="contact-spec">
+                        682-582-5795
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dmacatania@gmail.com" target="_blank">
+                        <img class="contact-image" src="{% static 'images/gmailinvert.jpg' %}" alt="Email">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=dmacatania@gmail.com" target="_blank">
+                            dmacatania@gmail.com
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <a href="https://github.com/DomC18" target="_blank">
+                        <img class="contact-image" src="{% static 'images/githubinvert.jpg' %}" alt="Github">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://github.com/DomC18" target="_blank">
+                            DomC18
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <a href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
+                        <img class="contact-image" src="{% static 'images/linkedinvert.png' %}" alt="LinkedIn">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
+                            Dominic Catania
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <a href="https://www.instagram.com/domcatania/?next=%2F" target="_blank">
+                        <img class="contact-image" src="{% static 'images/instagraminvert.jpg' %}" alt="Instagram">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://www.instagram.com/domcatania/?next=%2F" target="_blank">
+                            @domcatania
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-card" style="margin-right: 16px;">
+                    <a href="https://x.com/dmacatania" target="_blank">
+                        <img class="contact-image" src="{% static 'images/twitterinvert.jpg' %}" alt="Twitter/X">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://x.com/dmacatania" target="_blank">
+                            @dmacatania
+                        </a>
+                    </p>
+                </div>
             </div>
         </footer>
     </body>
