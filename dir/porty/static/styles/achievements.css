@@ -13,4 +13,33 @@
     border: solid 1px lightblue;
     height: 300px;
     margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.achievement-info {
+    flex: 1;
+    height: 300px;
+}
+.achievement-title {
+    margin: 8px 0px 0px 8px;
+    font-size: 60px;
+}
+.achievement-author {
+
+}
+.achievement-description {
+
+}
+
+.achievement-spec {
+    flex: 1;
+    height: 300px;
+}
+.achievement-date {
+    text-align: right;
+}
+.achievement-picture {
+    
 }
