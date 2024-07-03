@@ -1,0 +1,57 @@
+.education-label {
+    margin-left: 25px;
+}
+.education-container {
+    padding-top: 40px;
+}
+.education-grid {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.education-card {
+    border: solid 1px lightblue;
+    margin: 25px 180px 25px 25px;
+    display: flex;
+}
+
+.education-basic {
+    flex: 1;
+}
+.education-title {
+    margin: 8px 8px 8px 8px;
+    font-size: 50px;
+}
+.education-img {
+    width: 100%;
+    height: 544px;
+    object-fit: cover;
+}
+
+.education-info {
+    flex: 1;
+}
+.education-specs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.education-duration {
+    font-size: 32px;
+    margin-top: 24px;
+}
+.education-gpa {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-right: 24px;
+    text-align: right;
+}
+.education-role {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+.edu-dot {
+    font-size: 30px;
+    margin-bottom: 0px;
+}

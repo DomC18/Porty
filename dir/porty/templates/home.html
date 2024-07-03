@@ -7,6 +7,7 @@
         <title>DMAC Portfolio</title>
         <link rel="stylesheet" href="{% static 'styles/achievements.css' %}">
         <link rel="stylesheet" href="{% static 'styles/contact.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/education.css' %}">
         <link rel="stylesheet" href="{% static 'styles/general.css' %}">
         <link rel="stylesheet" href="{% static 'styles/header.css' %}">
         <link rel="stylesheet" href="{% static 'styles/intro.css' %}">
@@ -26,6 +27,9 @@
                 </a>
             </div>
             <div style="margin-right: 15px;">
+                <a class="link" href="#education">
+                    Education
+                </a>
                 <a class="link" href="#achievements">
                     Achievements
                 </a>
@@ -80,6 +84,84 @@
                 <a href="#home">
                     <img class="logo" src="{% static 'images/logo.png' %}" alt="DMAC">
                 </a>
+            </div>
+        </div>
+        <div class="education-container" id="education">
+            <h1 class="education-label">
+                Education
+            </h1>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-basic">
+                        <p class="education-title">
+                            Texas A&M University
+                        </p>
+                        <a href="https://www.tamu.edu/" target="_blank">
+                            <img class="education-img" src="{% static 'images/a&m.png' %}" alt="A&M">
+                        </a>
+                    </div>
+                    <div class="education-info">
+                        <div class="education-specs">
+                            <p class="education-duration">
+                                08/2024 - Present
+                            </p>
+                            <p class="education-gpa">
+                                
+                            </p>
+                        </div>
+                        <div class="education-roles-container">
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> General Engineering Major
+                            </p>
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> Seeking degree in Computer Science
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-basic">
+                        <p class="education-title">
+                            Nolan Catholic High School
+                        </p>
+                        <a href="https://www.nolancatholic.org/" target="_blank">
+                            <img class="education-img" src="{% static 'images/nolan.jpg' %}" alt="Nolan">
+                        </a>
+                    </div>
+                    <div class="education-info">
+                        <div class="education-specs">
+                            <p class="education-duration">
+                                08/2020 - 05/2024
+                            </p>
+                            <p class="education-gpa">
+                                GPA: 101
+                            </p>
+                        </div>
+                        <div class="education-roles-container">
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> Robotics Captain, Driver, & Lead Programmer
+                            </p>
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> Math Honors Society President
+                            </p>
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> Student House Captiain
+                            </p>
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> National Honors Society
+                            </p>
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> 16+ total AP, DC, and Honors Courses
+                            </p>
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> Viking Ambassador
+                            </p>
+                            <p class="education-role">
+                                <span class="edu-dot">&#8226;</span> Altar Server/Eucharistic Minister
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="achievements-container" id="achievements">

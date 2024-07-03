@@ -2,15 +2,15 @@
     margin-left: 25px;
 }
 .achievements-container {
-    width: auto;
-    height: 1000px;
     padding-top: 40px;
+}
+.achievements-grid {
+    width: auto;
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 20px;
 }
 .achievement-card {
     border: solid 1px lightblue;
-    height: 100px;
-    margin: 0px 20px 0px 20px;
+    height: 300px;
+    margin: 25px;
 }
