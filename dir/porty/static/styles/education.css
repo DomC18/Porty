@@ -26,6 +26,7 @@
 .education-card {
     margin: 25px 150px 25px 25px;
     display: flex;
+    flex-flow: row wrap;
 }
 
 .education-basic {
@@ -33,13 +34,10 @@
 }
 .education-title {
     margin: 8px 8px 8px 8px;
-    font-size: 50px;
     color: rgb(255,100,100);
 }
 .education-img {
-    width: 69%;
-    height: 544px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .education-info {
@@ -50,12 +48,10 @@
     grid-template-columns: 1fr 1fr;
 }
 .education-duration {
-    font-size: 32px;
     margin-top: 24px;
     color: rgb(255,100,100);
 }
 .education-gpa {
-    font-size: 32px;
     margin-top: 24px;
     margin-right: 24px;
     text-align: right;
@@ -70,4 +66,80 @@
 .edu-dot {
     font-size: 30px;
     margin-bottom: 0px;
+}
+
+
+
+
+
+@media (min-width: 1389px) {
+    .education-duration, .education-gpa {
+        font-size: 32px;
+    }
+}
+@media (max-width: 1388px) {
+    .education-duration, .education-gpa {
+        font-size: 22px;
+    }
+}
+
+
+@media (min-width: 1339px) {
+    .education-img {
+        width: 50%;
+    }
+}
+@media (max-width: 1339px) and (min-width: 1215px) {
+    .education-img {
+        width: 60%;
+    }
+}
+@media (max-width: 1215px) {
+    .education-img {
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 1274px) {
+    .education-title {
+        font-size: 50px;
+    }
+}
+@media (max-width: 1274px) {
+    .education-title {
+        font-size: 40px;
+    }
+}
+
+
+
+@media (min-width: 577px) {
+    .education-grid {
+        row-gap: 0px;
+    }
+    .education-basic {
+        padding-bottom: 0px; 
+        border: none;
+    }
+    .education-info {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 577px) {
+    .education-grid {
+        row-gap: 20px;
+    }
+    .education-basic {
+        padding-bottom: 18px;
+        border-color: rgb(255,100,100);
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-top-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+    }
+    .education-info {
+        margin-left: 8px;
+    }
 }
