@@ -1,5 +1,18 @@
+.education-label-container {
+    margin: 150px 25px 50px 25px;
+    border: none;
+    border-style: solid;
+    border-color: rgb(232, 255, 202);
+    border-bottom-width: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
 .education-label {
-    margin-left: 25px;
+    font-size: 80px;
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 24px;
+    color: rgb(232, 255, 202);
 }
 .education-container {
     padding-top: 40px;
@@ -11,7 +24,6 @@
 }
 
 .education-card {
-    border: solid 1px lightblue;
     margin: 25px 180px 25px 25px;
     display: flex;
 }
@@ -22,6 +34,7 @@
 .education-title {
     margin: 8px 8px 8px 8px;
     font-size: 50px;
+    color: rgb(232, 255, 202);
 }
 .education-img {
     width: 100%;
@@ -39,17 +52,20 @@
 .education-duration {
     font-size: 32px;
     margin-top: 24px;
+    color: rgb(232, 255, 202);
 }
 .education-gpa {
     font-size: 32px;
     margin-top: 24px;
     margin-right: 24px;
     text-align: right;
+    color: rgb(232, 255, 202);
 }
 .education-role {
     font-size: 30px;
     margin-bottom: 0px;
     margin-top: 14px;
+    color: rgb(185, 185, 185);
 }
 .edu-dot {
     font-size: 30px;

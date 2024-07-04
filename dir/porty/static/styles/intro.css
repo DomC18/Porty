@@ -13,16 +13,19 @@
     margin-left: 50px;
 }
 .hello-label {
+    color: rgb(232, 255, 202);
     font-size: 62px;
     margin-bottom: 0px;
 }
 .name-label {
+    color: rgb(255, 97, 97);
     margin-top: 0px;
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 0px;
 }
 .job-label {
+    color: rgb(232, 255, 202);
     margin-top: 28px;
     font-size: 28px;
 }

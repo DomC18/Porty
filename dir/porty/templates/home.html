@@ -20,424 +20,440 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body id="home">
-        <header class="header-container">
-            <div>
-                <a href="#home">
-                    <img class="small-logo" src="{% static 'images/logo.png' %}" alt="DMAC">
-                </a>
-            </div>
-            <div style="margin-right: 15px;">
-                <a class="link" href="#education">
-                    Education
-                </a>
-                <a class="link" href="#projects">
-                    Projects
-                </a>
-                <a class="link" href="#achievements">
-                    Achievements
-                </a>
-                <a class="link" href="#contact">
-                    Contact Me
-                </a>
-            </div>
-        </header>
-        <div class="intro-section-container">
-            <div class="intro-container">
-                <p class="hello-label">
-                    Hello, my name is
-                </p>
-                <p class="name-label">
-                    Dominic Catania,
-                </p>
-                <p class="job-label">
-                    An aspiring software engineer proficient in
-                </p>
-                <div class="specializations-container">
-                    <div class="specialization-div">
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                            <img class="specialization-image" src="{% static 'images/html.png' %}" alt="">
-                        </a>
-                    </div>
-                    <div class="specialization-div">
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                            <img class="specialization-image" src="{% static 'images/css.png' %}" alt="">
-                        </a>
-                    </div>
-                    <div class="specialization-div">
-                        <a href="https://www.python.org/" target="_blank">
-                            <img class="specialization-image" src="{% static 'images/python.png' %}" alt="">
-                        </a>
-                    </div>
-                    <div class="specialization-div">
-                        <a style="margin-left: 12px;" href="https://www.djangoproject.com/" target="_blank">
-                            <img class="specialization-image" src="{% static 'images/django.png' %}" alt="">
-                        </a>
-                    </div>
-                    <div class="specialization-div">
-                        <a href="https://www.java.com/en/" target="_blank">
-                            <img class="specialization-image" src="{% static 'images/java.png' %}" alt="">
-                        </a>
-                    </div>
+        <main>
+            <header class="header-container">
+                <div>
+                    <a href="#home">
+                        <img class="small-logo" src="{% static 'images/logo.png' %}" alt="DMAC">
+                    </a>
                 </div>
-            </div>
-            <div class="logo-container">
-                <a href="#home">
-                    <img class="logo" src="{% static 'images/logo.png' %}" alt="DMAC">
-                </a>
-            </div>
-        </div>
-        <div class="education-container" id="education">
-            <h1 class="education-label">
-                Education
-            </h1>
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="education-basic">
-                        <p class="education-title">
-                            Texas A&M University
-                        </p>
-                        <a href="https://www.tamu.edu/" target="_blank">
-                            <img class="education-img" src="{% static 'images/a&m.png' %}" alt="A&M">
-                        </a>
-                    </div>
-                    <div class="education-info">
-                        <div class="education-specs">
-                            <p class="education-duration">
-                                08/2024 - Present
-                            </p>
-                            <p class="education-gpa">
-                                
-                            </p>
+                <div style="margin-right: 15px;">
+                    <a class="link" href="#education">
+                        Education
+                    </a>
+                    <a class="link" href="#projects">
+                        Projects
+                    </a>
+                    <a class="link" href="#achievements">
+                        Achievements
+                    </a>
+                    <a class="link" href="#contact">
+                        Contact Me
+                    </a>
+                </div>
+            </header>
+            <section class="intro-section-container">
+                <div class="intro-container">
+                    <p class="hello-label">
+                        Hello, my name is
+                    </p>
+                    <p class="name-label">
+                        Dominic Catania,
+                    </p>
+                    <p class="job-label">
+                        An aspiring software engineer proficient in
+                    </p>
+                    <div class="specializations-container">
+                        <div class="specialization-div">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                                <img class="specialization-image" src="{% static 'images/html.png' %}" alt="">
+                            </a>
                         </div>
-                        <div class="education-roles-container">
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> General Engineering Major
-                            </p>
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> Seeking degree in Computer Science
-                            </p>
+                        <div class="specialization-div">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                                <img class="specialization-image" src="{% static 'images/css.png' %}" alt="">
+                            </a>
+                        </div>
+                        <div class="specialization-div">
+                            <a href="https://www.python.org/" target="_blank">
+                                <img class="specialization-image" src="{% static 'images/python.png' %}" alt="">
+                            </a>
+                        </div>
+                        <div class="specialization-div">
+                            <a style="margin-left: 12px;" href="https://www.djangoproject.com/" target="_blank">
+                                <img class="specialization-image" src="{% static 'images/django.png' %}" alt="">
+                            </a>
+                        </div>
+                        <div class="specialization-div">
+                            <a href="https://www.java.com/en/" target="_blank">
+                                <img class="specialization-image" src="{% static 'images/java.png' %}" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="education-card">
-                    <div class="education-basic">
-                        <p class="education-title">
-                            Nolan Catholic High School
-                        </p>
-                        <a href="https://www.nolancatholic.org/" target="_blank">
-                            <img class="education-img" src="{% static 'images/nolan.jpg' %}" alt="Nolan">
-                        </a>
-                    </div>
-                    <div class="education-info">
-                        <div class="education-specs">
-                            <p class="education-duration">
-                                08/2020 - 05/2024
+                <div class="logo-container">
+                    <a href="#home">
+                        <img class="logo" src="{% static 'images/logo.png' %}" alt="DMAC">
+                    </a>
+                </div>
+            </section>
+            <section class="education-container" id="education">
+                <div class="education-label-container">
+                    <h1 class="education-label">
+                        Education
+                    </h1>
+                </div>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-basic">
+                            <p class="education-title">
+                                Texas A&M University
                             </p>
-                            <p class="education-gpa">
-                                GPA: 101
+                            <a href="https://www.tamu.edu/" target="_blank">
+                                <img class="education-img" src="{% static 'images/a&m.png' %}" alt="A&M">
+                            </a>
+                        </div>
+                        <div class="education-info">
+                            <div class="education-specs">
+                                <p class="education-duration">
+                                    08/2024 - Present
+                                </p>
+                                <p class="education-gpa">
+                                    
+                                </p>
+                            </div>
+                            <div class="education-roles-container">
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> General Engineering Major
+                                </p>
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> Seeking degree in Computer Science
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-basic">
+                            <p class="education-title">
+                                Nolan Catholic High School
+                            </p>
+                            <a href="https://www.nolancatholic.org/" target="_blank">
+                                <img class="education-img" src="{% static 'images/nolan.jpg' %}" alt="Nolan">
+                            </a>
+                        </div>
+                        <div class="education-info">
+                            <div class="education-specs">
+                                <p class="education-duration">
+                                    08/2020 - 05/2024
+                                </p>
+                                <p class="education-gpa">
+                                    GPA: 101
+                                </p>
+                            </div>
+                            <div class="education-roles-container">
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> Robotics Captain, Driver, & Lead Programmer
+                                </p>
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> Math Honors Society President
+                                </p>
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> Student House Captiain
+                                </p>
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> National Honors Society
+                                </p>
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> 16+ total AP, DC, and Honors Courses
+                                </p>
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> Viking Ambassador
+                                </p>
+                                <p class="education-role">
+                                    <span class="edu-dot">&#8226;</span> Altar Server/Eucharistic Minister
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects-container" id="projects">
+                <div class="project-label-container">
+                    <h1 class="project-label">
+                        Featured Projects
+                    </h1>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-basics">
+                            <a class="project-link" href="https://github.com/DomC18/Lean" target="_blank">
+                                <p class="project-title">
+                                    Lean
+                                </p>
+                            </a>
+                            <a href="https://github.com/DomC18/Lean" target="_blank">
+                                <img class="project-image" src="{% static 'images/lean.png' %}" alt="Lean Image">
+                            </a>
+                        </div>
+                        <div class="project-specs">
+                            <p class="project-description">
+                                Python desktop application similar to Microsoft Paint, allowing
+                                users to create designs using basic shapes and colors as well as
+                                basic data structures to better visualize algorithms in personal problem solving
+                            </p>
+                            <p class="project-duration">
+                                June 2024 - Present
                             </p>
                         </div>
-                        <div class="education-roles-container">
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> Robotics Captain, Driver, & Lead Programmer
+                    </div>
+                    <div class="project-card">
+                        <div class="project-basics">
+                            <a class="project-link" href="https://github.com/DomC18/FlowNote" target="_blank">
+                                <p class="project-title">
+                                    FlowNote
+                                </p>
+                            </a>
+                            <a href="https://github.com/DomC18/FlowNote" target="_blank">
+                                <img class="project-image" src="{% static 'images/flownote.png' %}" alt="Lean Image">
+                            </a>
+                        </div>
+                        <div class="project-specs">
+                            <p class="project-description">
+                                Python desktop application designed to assist users in destructuring
+                                and modularizing large-scale projects through a calendar-tree relationship
                             </p>
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> Math Honors Society President
+                            <p class="project-duration">
+                                June 2023 - June 2024
                             </p>
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> Student House Captiain
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-basics">
+                            <a class="project-link" href="https://github.com/DomC18/Apothiki" target="_blank">
+                                <p class="project-title">
+                                    Apothiki
+                                </p>
+                            </a>
+                            <a href="https://github.com/DomC18/Apothiki" target="_blank">
+                                <img class="project-image" src="{% static 'images/apothiki.png' %}" alt="Lean Image">
+                            </a>
+                        </div>
+                        <div class="project-specs">
+                            <p class="project-description">
+                                Sister Python Application to TaskManager, serves as a storage system
+                                for user credentials, includes random generation and tag-filtering system
                             </p>
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> National Honors Society
+                            <p class="project-duration">
+                                May 2024 - June 2024
                             </p>
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> 16+ total AP, DC, and Honors Courses
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-basics">
+                            <a class="project-link" href="https://github.com/DomC18/TaskManager" target="_blank">
+                                <p class="project-title">
+                                    TaskManager
+                                </p>
+                            </a>
+                            <a href="https://github.com/DomC18/TaskManager" target="_blank">
+                                <img class="project-image" src="{% static 'images/taskmanager.png' %}" alt="Lean Image">
+                            </a>
+                        </div>
+                        <div class="project-specs">
+                            <p class="project-description">
+                                Sister Python Application to Apothiki, todo-list system with live calendar,
+                                importance and deadline filtering
                             </p>
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> Viking Ambassador
+                            <p class="project-duration">
+                                April 2024 - June 2024
                             </p>
-                            <p class="education-role">
-                                <span class="edu-dot">&#8226;</span> Altar Server/Eucharistic Minister
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-basics">
+                            <a class="project-link" href="https://github.com/frc4206/2024Carson" target="_blank">
+                                <p class="project-title">
+                                    Carson
+                                </p>
+                            </a>
+                            <a href="https://www.thebluealliance.com/team/4206/2024" target="_blank">
+                                <img class="project-image" src="{% static 'images/robot2024.png' %}" alt="Lean Image">
+                            </a>
+                        </div>
+                        <div class="project-specs">
+                            <p class="project-description">
+                                Java robot program for the 2024 FRC game;
+                                distance interpolation and locking to game targets using
+                                AprilTag IDs; autonomous routines with decision-making; auto-pickup
+                                and auto-score
+                            </p>
+                            <p class="project-duration">
+                                January 2024 - April 2024
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-basics">
+                            <a class="project-link" href="https://github.com/frc4206/2023FoniXtraFunctionalities" target="_blank">
+                                <p class="project-title">
+                                    Fonix
+                                </p>
+                            </a>
+                            <a href="https://www.thebluealliance.com/team/4206/2023" target="_blank">
+                                <img class="project-image" src="{% static 'images/robot2023.jpg' %}" alt="Lean Image">
+                            </a>
+                        </div>
+                        <div class="project-specs">
+                            <p class="project-description">
+                                Java robot program for the 2023 FRC game; full-field localization
+                                and pose estimation using inverse kinematics and AprilTag IDs;
+                                autonomous routines with decision-making; auto-pickup and auto-score
+                            </p>
+                            <p class="project-duration">
+                                January 2023 - April 2023
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="projects-container" id="projects">
-            <h1 class="project-label">
-                Featured Projects
-            </h1>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-basics">
-                        <p class="project-title">
-                            Lean
-                        </p>
-                        <a href="#projects">
-                            <img class="project-image" src="{% static 'images/lean.png' %}" alt="Lean Image">
-                        </a>
-                    </div>
-                    <div class="project-specs">
-                        <p class="project-description">
-                            Python desktop application similar to Microsoft Paint, allowing
-                            users to create designs using basic shapes and colors as well as
-                            basic data structures to better visualize algorithms in personal problem solving
-                        </p>
-                        <p class="project-duration">
-                            June 2024 - Present
-                        </p>
-                    </div>
+            </section>
+            <section class="achievements-container" id="achievements">
+                <div class="achievements-label-container">
+                    <h1 class="achievements-label">
+                        Achievements
+                    </h1>
                 </div>
-                <div class="project-card">
-                    <div class="project-basics">
-                        <p class="project-title">
-                            FlowNote
-                        </p>
-                        <a href="#projects">
-                            <img class="project-image" src="{% static 'images/flownote.png' %}" alt="Lean Image">
-                        </a>
-                    </div>
-                    <div class="project-specs">
-                        <p class="project-description">
-                            Python desktop application designed to assist users in destructuring
-                            and modularizing large-scale projects through a calendar-tree relationship
-                        </p>
-                        <p class="project-duration">
-                            June 2023 - June 2024
-                        </p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-basics">
-                        <p class="project-title">
-                            Apothiki
-                        </p>
-                        <a href="#projects">
-                            <img class="project-image" src="{% static 'images/apothiki.png' %}" alt="Lean Image">
-                        </a>
-                    </div>
-                    <div class="project-specs">
-                        <p class="project-description">
-                            Sister Python Application to TaskManager, serves as a storage system
-                            for user credentials, includes random generation and tag-filtering system
-                        </p>
-                        <p class="project-duration">
-                            May 2024 - June 2024
-                        </p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-basics">
-                        <p class="project-title">
-                            TaskManager
-                        </p>
-                        <a href="#projects">
-                            <img class="project-image" src="{% static 'images/taskmanager.png' %}" alt="Lean Image">
-                        </a>
-                    </div>
-                    <div class="project-specs">
-                        <p class="project-description">
-                            Sister Python Application to Apothiki, todo-list system with live calendar,
-                            importance and deadline filtering
-                        </p>
-                        <p class="project-duration">
-                            April 2024 - June 2024
-                        </p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-basics">
-                        <p class="project-title">
-                            Carson
-                        </p>
-                        <a href="https://www.thebluealliance.com/team/4206/2024" target="_blank">
-                            <img class="project-image" src="{% static 'images/robot2024.png' %}" alt="Lean Image">
-                        </a>
-                    </div>
-                    <div class="project-specs">
-                        <p class="project-description">
-                            Java robot program for the 2024 FRC game;
-                            distance interpolation and locking to game targets using
-                            AprilTag IDs; autonomous routines with decision-making; auto-pickup
-                            and auto-score
-                        </p>
-                        <p class="project-duration">
-                            January 2024 - April 2024
-                        </p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-basics">
-                        <p class="project-title">
-                            Fonix
-                        </p>
-                        <a href="https://www.thebluealliance.com/team/4206/2023" target="_blank">
-                            <img class="project-image" src="{% static 'images/robot2023.jpg' %}" alt="Lean Image">
-                        </a>
-                    </div>
-                    <div class="project-specs">
-                        <p class="project-description">
-                            Java robot program for the 2023 FRC game; full-field localization
-                            and pose estimation using inverse kinematics and AprilTag IDs;
-                            autonomous routines with decision-making; auto-pickup and auto-score
-                        </p>
-                        <p class="project-duration">
-                            January 2023 - April 2023
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="achievements-container" id="achievements">
-            <h1 class="achievements-label">
-                Achievements
-            </h1>
-            <div class="achievements-grid">
-                <div class="achievement-card">
-                    <div class="achievement-info">
-                        <p class="achievement-title">
-                            Esto Dux Leadership Award
-                        </p>
-                        <p class="achievement-author">
-                            Nolan Catholic High School
-                        </p>
-                        <p class="achievement-description">
-                            Award given to a student who exemplifies the
-                            leadership characteristics of a Nolan Catholic student
-                        </p>
-                    </div>
-                    <div class="achievement-spec">
-                        <p class="achievement-date">
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-basic">
+                            <p class="achievement-title" style="color: rgb(163, 163, 255);">
+                                Esto Dux Leadership Award
+                            </p>
+                            <p class="achievement-author" style="color: rgb(163, 163, 255);">
+                                Nolan Catholic High School
+                            </p>
+                        </div>
+                        <p class="achievement-date" style="color: rgb(163, 163, 255);">
                             05/2024
                         </p>
-                        <img class="achievement-picture" src="" alt="Award">
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-info">
-                        <p class="achievement-title">
-                            FRC World Championship Semifinalists
-                        </p>
-                        <p class="achievement-author">
-                            Team 4206
-                        </p>
-                        <p class="achievement-description">
-                            Award given to a student who exemplifies the
-                            leadership characteristics of a Nolan Catholic student
+                        <p class="achievement-description" style="color: rgb(163, 163, 255);">
+                            The Esto Dux Leadership Award recognizes two students who have demonstrated 
+                            exceptional commitment to academic excellence and showcased core leadership
+                            characteristics and virtues at Nolan Catholic High School throughout their enrollment.
                         </p>
                     </div>
-                    <div class="achievement-spec">
-                        <p class="achievement-date">
+                    <div class="achievement-card">
+                        <div class="achievement-basic">
+                            <p class="achievement-title" style="color: rgb(238, 255, 0);">
+                                FRC World Semifinalists
+                            </p>
+                            <p class="achievement-author" style="color: rgb(238, 255, 0);">
+                                Team 4206
+                            </p>
+                        </div>
+                        <p class="achievement-date" style="color: rgb(238, 255, 0);">
                             04/2024
                         </p>
-                        <img class="achievement-picture" src="" alt="Award">
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-info">
-                        <p class="achievement-title">
-                            FRC World Championship Division Semifinalists
-                        </p>
-                        <p class="achievement-author">
-                            Team 4206
-                        </p>
-                        <p class="achievement-description">
-                            Award given to a student who exemplifies the
-                            leadership characteristics of a Nolan Catholic student
+                        <p class="achievement-description" style="color: rgb(238, 255, 0);">
+                            Demonstrated exceptional teamwork, problem-solving, & engineering 
+                            skills as part of a FIRST Robotics Competition team that 
+                            reached the world semifinals; collaborated on complex robot
+                            designs, programming, competition strategy, & robot operation
                         </p>
                     </div>
-                    <div class="achievement-spec">
-                        <p class="achievement-date">
+                    <div class="achievement-card">
+                        <div class="achievement-basic">
+                            <p class="achievement-title" style="color: rgb(118, 118, 118);">
+                                FRC World Division Semifinalists
+                            </p>
+                            <p class="achievement-author" style="color: rgb(118, 118, 118);">
+                                Team 4206
+                            </p>
+                        </div>
+                        <p class="achievement-date" style="color: rgb(118, 118, 118);">
                             04/2023
                         </p>
-                        <img class="achievement-picture" src="" alt="Award">
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-info">
-                        <p class="achievement-title">
-                            Taekwondo Second Degree Black Belt
-                        </p>
-                        <p class="achievement-author">
-                            Lone Star Black Belt Academy
-                        </p>
-                        <p class="achievement-description">
-                            Award given to a student who exemplifies the
-                            leadership characteristics of a Nolan Catholic student
+                        <p class="achievement-description" style="color: rgb(118, 118, 118);">
+                            Demonstrated exceptional teamwork, problem-solving, & engineering 
+                            skills as part of an FRC team that reached the division semifinals at the world
+                            competition; collaborated on complex robot designs, programming,
+                            competition strategy, & robot operation
                         </p>
                     </div>
-                    <div class="achievement-spec">
+                    <div class="achievement-card">
+                        <div class="achievement-basic">
+                            <p class="achievement-title">
+                                2nd Degree Black Belt
+                            </p>
+                            <p class="achievement-author">
+                                Lone Star Black Belt Academy
+                            </p>
+                        </div>
                         <p class="achievement-date">
                             08/2020
                         </p>
-                        <img class="achievement-picture" src="" alt="Award">
+                        <p class="achievement-description">
+                            7 year training in Taekwondo forms, sparring, weapons & techniques;
+                            national competition in each discipline; teaching students the Bo Staff
+                            weapon; mentoring & evaluating peers & younger students
+                        </p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <footer class="contact-container" id="contact">
-            <h1 class="contact-label">
-                Contact me here!
-            </h1>
-            <div class="cards-container">
-                <div class="contact-card" style="margin-left: 16px;">
-                    <img class="contact-image" src="{% static 'images/phoneinvert.png' %}" alt="Phone Number">
-                    <p class="contact-spec">
-                        682-582-5795
-                    </p>
+            </section>
+            <footer class="contact-container" id="contact">
+                <div class="contact-label-container">
+                    <h1 class="contact-label">
+                        Contact me here!
+                    </h1>
                 </div>
-                <div class="contact-card">
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dmacatania@gmail.com" target="_blank">
-                        <img class="contact-image" src="{% static 'images/gmailinvert.jpg' %}" alt="Email">
-                    </a>
-                    <p class="contact-spec">
-                        <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=dmacatania@gmail.com" target="_blank">
-                            dmacatania@gmail.com
+                <div class="cards-container">
+                    <div class="contact-card" style="margin-left: 16px;">
+                        <img class="contact-image" src="{% static 'images/phoneinvert.png' %}" alt="Phone Number">
+                        <p class="contact-spec" style="text-decoration: underline;">
+                            682-582-5795
+                        </p>
+                    </div>
+                    <div class="contact-card">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dmacatania@gmail.com" target="_blank">
+                            <img class="contact-image" src="{% static 'images/gmailinvert.jpg' %}" alt="Email">
                         </a>
-                    </p>
-                </div>
-                <div class="contact-card">
-                    <a href="https://github.com/DomC18" target="_blank">
-                        <img class="contact-image" src="{% static 'images/githubinvert.jpg' %}" alt="Github">
-                    </a>
-                    <p class="contact-spec">
-                        <a class="contact-link" href="https://github.com/DomC18" target="_blank">
-                            DomC18
+                        <p class="contact-spec">
+                            <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=dmacatania@gmail.com" target="_blank">
+                                dmacatania@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-card">
+                        <a href="https://github.com/DomC18" target="_blank">
+                            <img class="contact-image" src="{% static 'images/githubinvert.jpg' %}" alt="Github">
                         </a>
-                    </p>
-                </div>
-                <div class="contact-card">
-                    <a href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
-                        <img class="contact-image" src="{% static 'images/linkedinvert.png' %}" alt="LinkedIn">
-                    </a>
-                    <p class="contact-spec">
-                        <a class="contact-link" href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
-                            Dominic Catania
+                        <p class="contact-spec">
+                            <a class="contact-link" href="https://github.com/DomC18" target="_blank">
+                                DomC18
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-card">
+                        <a href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
+                            <img class="contact-image" src="{% static 'images/linkedinvert.png' %}" alt="LinkedIn">
                         </a>
-                    </p>
-                </div>
-                <div class="contact-card">
-                    <a href="https://www.instagram.com/domcatania/?next=%2F" target="_blank">
-                        <img class="contact-image" src="{% static 'images/instagraminvert.jpg' %}" alt="Instagram">
-                    </a>
-                    <p class="contact-spec">
-                        <a class="contact-link" href="https://www.instagram.com/domcatania/?next=%2F" target="_blank">
-                            @domcatania
+                        <p class="contact-spec">
+                            <a class="contact-link" href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
+                                Dominic Catania
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-card">
+                        <a href="https://www.instagram.com/domcatania/?next=%2F" target="_blank">
+                            <img class="contact-image" src="{% static 'images/instagraminvert.jpg' %}" alt="Instagram">
                         </a>
-                    </p>
-                </div>
-                <div class="contact-card" style="margin-right: 16px;">
-                    <a href="https://x.com/dmacatania" target="_blank">
-                        <img class="contact-image" src="{% static 'images/twitterinvert.jpg' %}" alt="Twitter/X">
-                    </a>
-                    <p class="contact-spec">
-                        <a class="contact-link" href="https://x.com/dmacatania" target="_blank">
-                            @dmacatania
+                        <p class="contact-spec">
+                            <a class="contact-link" href="https://www.instagram.com/domcatania/?next=%2F" target="_blank">
+                                @domcatania
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-card" style="margin-right: 16px;">
+                        <a href="https://x.com/dmacatania" target="_blank">
+                            <img class="contact-image" src="{% static 'images/twitterinvert.jpg' %}" alt="Twitter/X">
                         </a>
-                    </p>
+                        <p class="contact-spec">
+                            <a class="contact-link" href="https://x.com/dmacatania" target="_blank">
+                                @dmacatania
+                            </a>
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </main>
     </body>
 </html>

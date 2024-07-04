@@ -1,5 +1,18 @@
+.achievements-label-container {
+    margin: 150px 25px 50px 25px;
+    border: none;
+    border-style: solid;
+    border-color: rgb(255, 60, 60);
+    border-bottom-width: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
 .achievements-label {
-    margin-left: 25px;
+    font-size: 80px;
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 24px;
+    color: rgb(255, 60, 60);
 }
 .achievements-container {
     padding-top: 40px;
@@ -10,36 +23,48 @@
     grid-template-columns: 1fr;
 }
 .achievement-card {
-    border: solid 1px lightblue;
     height: 300px;
     margin: 25px;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
-.achievement-info {
-    flex: 1;
-    height: 300px;
+.achievement-basic {
+    position: absolute;
+    width: 75%;
+    top: 0;
+    left: 0;
+    padding: 4px 0px 0px 8px;
+    margin: 0;
 }
 .achievement-title {
-    margin: 8px 0px 0px 8px;
-    font-size: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 4px;
 }
 .achievement-author {
-
-}
-.achievement-description {
-
-}
-
-.achievement-spec {
-    flex: 1;
-    height: 300px;
+    font-size: 36px;
+    margin: 0;
 }
 .achievement-date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px 16px 0px 0px;
+    margin: 0;
     text-align: right;
+    font-size: 40px;
 }
-.achievement-picture {
-    
+.achievement-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0px 0px 8px 8px;
+    margin: 0;
+    width: 85%;
+    font-size: 22px;
 }
