@@ -21,3 +21,22 @@
     height: 70px;
     margin-top: 3px;
 }
+
+
+
+
+@media (min-width: 436px) {
+    .link {
+        font-size: 20px;
+    }
+}
+@media (max-width: 435px) and (min-width: 357px) {
+    .link {
+        font-size: 14px;
+    }
+}
+@media (max-width: 356px) {
+    .link {
+        font-size: 8px;
+    }
+}

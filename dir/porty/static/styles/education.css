@@ -34,7 +34,7 @@
 .education-title {
     margin: 8px 8px 8px 8px;
     font-size: 50px;
-    color: rgb(216, 255, 164);
+    color: rgb(255,100,100);
 }
 .education-img {
     width: 69%;
@@ -52,14 +52,14 @@
 .education-duration {
     font-size: 32px;
     margin-top: 24px;
-    color: rgb(216, 255, 164);
+    color: rgb(255,100,100);
 }
 .education-gpa {
     font-size: 32px;
     margin-top: 24px;
     margin-right: 24px;
     text-align: right;
-    color: rgb(216, 255, 164);
+    color: rgb(255,100,100);
 }
 .education-role {
     font-size: 30px;

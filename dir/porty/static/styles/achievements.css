@@ -9,7 +9,6 @@
     border-right-width: 0px;
 }
 .achievements-label {
-    font-size: 80px;
     padding: 0px 0px 5px 0px;
     margin-bottom: 24px;
     color: rgb(255, 0, 0);
@@ -41,14 +40,14 @@
     margin: 0;
 }
 .achievement-title {
-    font-size: 50px;
     font-weight: bold;
     margin: 0;
     margin-bottom: 4px;
+    color: rgb(255, 92, 92);
 }
 .achievement-author {
-    font-size: 36px;
     margin: 0;
+    color: rgb(255, 92, 92);
 }
 .achievement-date {
     position: absolute;
@@ -57,7 +56,7 @@
     padding: 16px 16px 0px 0px;
     margin: 0;
     text-align: right;
-    font-size: 40px;
+    color: rgb(255, 92, 92);
 }
 .achievement-description {
     position: absolute;
@@ -66,5 +65,103 @@
     padding: 0px 0px 8px 8px;
     margin: 0;
     width: 85%;
-    font-size: 22px;
+    color: rgb(120, 120, 120);
+}
+
+
+
+
+
+@media (min-width: 1167px) {
+    .achievement-title {
+        font-size: 50px;
+    }
+    .achievement-date {
+        font-size: 40px;
+    }
+}
+@media (max-width: 1166px) and (min-width: 946px) {
+    .achievement-title {
+        font-size: 40px;
+    }
+    .achievement-date {
+        font-size: 30px;
+    }
+}
+@media (max-width: 945px) and (min-width: 710px) {
+    .achievement-title {
+        font-size: 30px;
+    }
+    .achievement-date {
+        font-size: 20px;
+    }
+}
+@media (max-width: 709px) {
+    .achievement-title {
+        font-size: 20px;
+    }
+    .achievement-author {
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 946px) {
+    .achievement-author {
+        font-size: 36px;
+    }
+}
+@media (max-width: 945px) and (min-width: 710px) {
+    .achievement-author {
+        font-size: 26px;
+    }
+}
+@media (max-width: 709px) {
+    .achievement-author {
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 777px) {
+    .achievement-description {
+        font-size: 22px;
+    }
+}
+@media (max-width: 776px) and (min-width: 555px) {
+    .achievement-description {
+        font-size: 20px;
+    }
+}
+@media (max-width: 554px) {
+    .achievement-description {
+        font-size: 17px;
+    }
+}
+
+
+@media (min-width: 667px) {
+    .achievements-label {
+        font-size: 80px;
+    }
+}
+@media (max-width: 666px) and (min-width: 592px) {
+    .achievements-label {
+        font-size: 70px;
+    }
+}
+@media (max-width: 591px) and (min-width: 520px) {
+    .achievements-label {
+        font-size: 60px;
+    }
+}
+@media (max-width: 519px) and (min-width: 445px) {
+    .achievements-label {
+        font-size: 50px;
+    }
+}
+@media (max-width: 444px) {
+    .achievements-label {
+        font-size: 40px;
+    }
 }
