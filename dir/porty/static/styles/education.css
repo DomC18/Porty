@@ -2,7 +2,7 @@
     margin: 200px 25px 50px 25px;
     border: none;
     border-style: solid;
-    border-color: rgb(216, 255, 164);
+    border-color: rgb(255, 0, 0);
     border-bottom-width: 10px;
     border-top-width: 0px;
     border-left-width: 0px;
@@ -12,7 +12,7 @@
     font-size: 80px;
     padding: 0px 0px 5px 0px;
     margin-bottom: 24px;
-    color: rgb(216, 255, 164);
+    color: rgb(255, 0, 0);
 }
 .education-container {
     padding-top: 40px;
@@ -24,7 +24,7 @@
 }
 
 .education-card {
-    margin: 25px 180px 25px 25px;
+    margin: 25px 150px 25px 25px;
     display: flex;
 }
 
@@ -37,7 +37,7 @@
     color: rgb(216, 255, 164);
 }
 .education-img {
-    width: 100%;
+    width: 69%;
     height: 544px;
     object-fit: cover;
 }

@@ -1,6 +1,6 @@
 .contact-container {
     width: auto;
-    margin-top: 250px;
+    margin: 250px 16px 0px 16px;
     height: 500px;
 }
 
@@ -8,7 +8,7 @@
     margin: 200px 25px 50px 25px;
     border: none;
     border-style: solid;
-    border-color: rgb(216, 255, 164);
+    border-color: rgb(255, 0, 0);
     border-bottom-width: 10px;
     border-top-width: 0px;
     border-left-width: 0px;
@@ -19,7 +19,7 @@
     font-size: 90px;
     padding: 0px 0px 5px 0px;
     margin-bottom: 24px;
-    color: rgb(216, 255, 164);
+    color: rgb(255, 0, 0);
 }
 .cards-container {
     left: 50%;
