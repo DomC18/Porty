@@ -7,12 +7,12 @@
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    border-color: rgb(232, 255, 202);
+    border-color: rgb(216, 255, 164);
     background-color: rgb(50, 50, 50);
     z-index: 100;
 }
 .link {
-    color: rgb(232, 255, 202);
+    color: rgb(216, 255, 164);
     font-size: 20px;
     margin-left: 20px;
 }

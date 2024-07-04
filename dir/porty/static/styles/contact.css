@@ -5,10 +5,10 @@
 }
 
 .contact-label-container {
-    margin: 150px 25px 50px 25px;
+    margin: 200px 25px 50px 25px;
     border: none;
     border-style: solid;
-    border-color: rgb(232, 255, 202);
+    border-color: rgb(216, 255, 164);
     border-bottom-width: 10px;
     border-top-width: 0px;
     border-left-width: 0px;
@@ -19,7 +19,7 @@
     font-size: 90px;
     padding: 0px 0px 5px 0px;
     margin-bottom: 24px;
-    color: rgb(232, 255, 202);
+    color: rgb(216, 255, 164);
 }
 .cards-container {
     left: 50%;
@@ -42,5 +42,5 @@
     font-size: 20px;
 }
 .contact-link {
-    color: rgb(232, 255, 202);
+    color: rgb(216, 255, 164);
 }

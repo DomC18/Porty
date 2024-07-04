@@ -4,7 +4,7 @@
 }
 
 .project-label-container {
-    margin: 150px 25px 50px 25px;
+    margin: 200px 25px 50px 25px;
     border: none;
     border-style: solid;
     border-color: rgb(163, 163, 255);
@@ -64,7 +64,7 @@
     vertical-align: middle;
 }
 .project-description {
-    color: rgb(185, 185, 185);
+    color: rgb(120, 120, 120);
     height: 224px;
     font-size: 20px;
     text-align: right;
