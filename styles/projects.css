@@ -7,7 +7,7 @@
     margin: 200px 25px 50px 25px;
     border: none;
     border-style: solid;
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(225, 0, 0);
     border-bottom-width: 10px;
     border-top-width: 0px;
     border-left-width: 0px;
@@ -16,7 +16,7 @@
 .project-label {
     padding: 0px 0px 5px 0px;
     margin-bottom: 24px;
-    color: rgb(255, 0, 0);
+    color: rgb(225, 0, 0);
 }
 
 .projects-grid {
@@ -81,7 +81,7 @@
     vertical-align: middle;
 }
 .project-description {
-    color: rgb(120, 120, 120);
+    color: rgb(150, 150, 150);
     height: 224px;
     text-align: right;
     margin-top: 7px;

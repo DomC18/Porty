@@ -8,7 +8,7 @@
     margin: 200px 25px 50px 25px;
     border: none;
     border-style: solid;
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(225, 0, 0);
     border-bottom-width: 10px;
     border-top-width: 0px;
     border-left-width: 0px;
@@ -18,7 +18,7 @@
     text-align: center;
     padding: 0px 0px 5px 0px;
     margin-bottom: 24px;
-    color: rgb(255, 0, 0);
+    color: rgb(225, 0, 0);
 }
 .cards-container {
     text-align: center;
@@ -44,7 +44,7 @@
     font-size: 20px;
 }
 .contact-link {
-    color: rgb(255, 0, 0);
+    color: rgb(225, 0, 0);
     transition: all 0.25s ease-in-out;
 }
 .contact-link:hover {
