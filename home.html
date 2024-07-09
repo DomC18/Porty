@@ -1,30 +1,30 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DMAC Portfolio</title>
-        <link rel="stylesheet" href="{% static 'styles/achievements.css' %}">
-        <link rel="stylesheet" href="{% static 'styles/contact.css' %}">
-        <link rel="stylesheet" href="{% static 'styles/education.css' %}">
-        <link rel="stylesheet" href="{% static 'styles/general.css' %}">
-        <link rel="stylesheet" href="{% static 'styles/header.css' %}">
-        <link rel="stylesheet" href="{% static 'styles/intro.css' %}">
-        <link rel="stylesheet" href="{% static 'styles/projects.css' %}">
+        <link rel="stylesheet" href="styles/achievements.css">
+        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/education.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/intro.css">
+        <link rel="stylesheet" href="styles/projects.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script defer src="home.js"></script>
     </head>
     <body id="home">
         <main>
             <header class="header-container">
                 <div>
                     <a href="#home">
-                        <img class="small-logo" src="{% static 'images/logored.png' %}" alt="DMAC">
+                        <img class="small-logo" src="images/logored.png" alt="DMAC">
                     </a>
                 </div>
                 <div style="margin-right: 15px;">
@@ -43,7 +43,7 @@
                 </div>
             </header>
             <section class="intro-section-container">
-                <div class="intro-container">
+                <div class="intro-container hidden-left">
                     <p class="hello-label">
                         Hello, my name is
                     </p>
@@ -54,36 +54,36 @@
                         An aspiring software engineer proficient in...
                     </p>
                     <div class="specializations-container">
-                        <div class="specialization-div">
+                        <div class="specialization hidden">
                             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                                <img class="specialization-image" src="{% static 'images/html.png' %}" alt="">
+                                <img class="specialization-image" src="images/html.png" alt="">
                             </a>
                         </div>
-                        <div class="specialization-div">
+                        <div class="specialization hidden">
                             <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                                <img class="specialization-image" src="{% static 'images/css.png' %}" alt="">
+                                <img class="specialization-image" src="images/css.png" alt="">
                             </a>
                         </div>
-                        <div class="specialization-div">
+                        <div class="specialization hidden">
                             <a href="https://www.python.org/" target="_blank">
-                                <img class="specialization-image" src="{% static 'images/python.png' %}" alt="">
+                                <img class="specialization-image" src="images/python.png" alt="">
                             </a>
                         </div>
-                        <div class="specialization-div">
+                        <!-- <div class="specialization hidden">
                             <a style="margin-left: 12px;" href="https://www.djangoproject.com/" target="_blank">
-                                <img class="specialization-image" src="{% static 'images/django.png' %}" alt="">
+                                <img class="specialization-image" src="images/django.png" alt="">
                             </a>
-                        </div>
-                        <div class="specialization-div">
+                        </div> -->
+                        <div class="specialization hidden">
                             <a href="https://www.java.com/en/" target="_blank">
-                                <img class="specialization-image" src="{% static 'images/java.png' %}" alt="">
+                                <img class="specialization-image" src="images/java.png" alt="">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="logo-container">
+                <div class="logo-container hidden-right">
                     <a href="#home">
-                        <img class="logo" src="{% static 'images/logored.png' %}" alt="DMAC">
+                        <img class="logo" src="images/logored.png" alt="DMAC">
                     </a>
                 </div>
             </section>
@@ -94,13 +94,13 @@
                     </h1>
                 </div>
                 <div class="education-grid">
-                    <div class="education-card">
+                    <div class="education-card hidden">
                         <div class="education-basic">
                             <p class="education-title">
                                 Texas A&M University
                             </p>
                             <a href="https://www.tamu.edu/" target="_blank">
-                                <img class="education-img" src="{% static 'images/a&m2.png' %}" alt="A&M">
+                                <img class="education-img" src="images/a&m2.png" alt="A&M">
                             </a>
                         </div>
                         <div class="education-info">
@@ -122,13 +122,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="education-card">
+                    <div class="education-card hidden">
                         <div class="education-basic">
                             <p class="education-title">
                                 Nolan Catholic High School
                             </p>
                             <a href="https://www.nolancatholic.org/" target="_blank">
-                                <img class="education-img" src="{% static 'images/nolan.jpg' %}" alt="Nolan">
+                                <img class="education-img" src="images/nolan.jpg" alt="Nolan">
                             </a>
                         </div>
                         <div class="education-info">
@@ -174,7 +174,7 @@
                     </h1>
                 </div>
                 <div class="projects-grid">
-                    <div class="project-card">
+                    <div class="project-card hidden-left">
                         <div class="project-basics">
                             <a class="project-link" href="https://github.com/DomC18/Lean" target="_blank">
                                 <p class="project-title">
@@ -182,7 +182,7 @@
                                 </p>
                             </a>
                             <a href="https://github.com/DomC18/Lean" target="_blank">
-                                <img class="project-image" src="{% static 'images/lean.png' %}" alt="Lean Image">
+                                <img class="project-image" src="images/lean.png" alt="Lean Image">
                             </a>
                         </div>
                         <div class="project-specs">
@@ -196,7 +196,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card hidden-right">
                         <div class="project-basics">
                             <a class="project-link" href="https://github.com/DomC18/FlowNote" target="_blank">
                                 <p class="project-title">
@@ -204,7 +204,7 @@
                                 </p>
                             </a>
                             <a href="https://github.com/DomC18/FlowNote" target="_blank">
-                                <img class="project-image" src="{% static 'images/flownote.png' %}" alt="Lean Image">
+                                <img class="project-image" src="images/flownote.png" alt="Lean Image">
                             </a>
                         </div>
                         <div class="project-specs">
@@ -217,7 +217,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card hidden-left">
                         <div class="project-basics">
                             <a class="project-link" href="https://github.com/DomC18/Apothiki" target="_blank">
                                 <p class="project-title">
@@ -225,7 +225,7 @@
                                 </p>
                             </a>
                             <a href="https://github.com/DomC18/Apothiki" target="_blank">
-                                <img class="project-image" src="{% static 'images/apothiki.png' %}" alt="Lean Image">
+                                <img class="project-image" src="images/apothiki.png" alt="Lean Image">
                             </a>
                         </div>
                         <div class="project-specs">
@@ -238,7 +238,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card hidden-right">
                         <div class="project-basics">
                             <a class="project-link" href="https://github.com/DomC18/TaskManager" target="_blank">
                                 <p class="project-title">
@@ -246,7 +246,7 @@
                                 </p>
                             </a>
                             <a href="https://github.com/DomC18/TaskManager" target="_blank">
-                                <img class="project-image" src="{% static 'images/taskmanager.png' %}" alt="Lean Image">
+                                <img class="project-image" src="images/taskmanager.png" alt="Lean Image">
                             </a>
                         </div>
                         <div class="project-specs">
@@ -259,7 +259,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card hidden-left">
                         <div class="project-basics">
                             <a class="project-link" href="https://github.com/frc4206/2024Carson" target="_blank">
                                 <p class="project-title">
@@ -267,7 +267,7 @@
                                 </p>
                             </a>
                             <a href="https://www.thebluealliance.com/team/4206/2024" target="_blank">
-                                <img class="project-image" src="{% static 'images/robot2024.png' %}" alt="Lean Image">
+                                <img class="project-image" src="images/robot2024.png" alt="Lean Image">
                             </a>
                         </div>
                         <div class="project-specs">
@@ -282,7 +282,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card hidden-right">
                         <div class="project-basics">
                             <a class="project-link" href="https://github.com/frc4206/2023FoniXtraFunctionalities" target="_blank">
                                 <p class="project-title">
@@ -290,7 +290,7 @@
                                 </p>
                             </a>
                             <a href="https://www.thebluealliance.com/team/4206/2023" target="_blank">
-                                <img class="project-image" src="{% static 'images/robot2023.jpg' %}" alt="Lean Image">
+                                <img class="project-image" src="images/robot2023.jpg" alt="Lean Image">
                             </a>
                         </div>
                         <div class="project-specs">
@@ -314,7 +314,7 @@
                 </div>
                 <div class="achievements-grid">
                     <div class="achievement-card">
-                        <div class="achievement-basic">
+                        <div class="achievement-basic hidden-left">
                             <p class="achievement-title">
                                 Esto Dux Leadership Award
                             </p>
@@ -322,17 +322,17 @@
                                 Nolan Catholic High School
                             </p>
                         </div>
-                        <p class="achievement-date">
+                        <p class="achievement-date hidden-right">
                             05/2024
                         </p>
-                        <p class="achievement-description">
+                        <p class="achievement-description hidden">
                             The Esto Dux Leadership Award recognizes two students who have demonstrated 
                             exceptional commitment to academic excellence and showcased core leadership
                             characteristics and virtues at Nolan Catholic High School throughout their enrollment.
                         </p>
                     </div>
                     <div class="achievement-card">
-                        <div class="achievement-basic">
+                        <div class="achievement-basic hidden-left">
                             <p class="achievement-title">
                                 FRC World Semifinalists
                             </p>
@@ -340,10 +340,10 @@
                                 Team 4206
                             </p>
                         </div>
-                        <p class="achievement-date">
+                        <p class="achievement-date hidden-right">
                             04/2024
                         </p>
-                        <p class="achievement-description">
+                        <p class="achievement-description hidden">
                             Demonstrated exceptional teamwork, problem-solving, & engineering 
                             skills as part of a FIRST Robotics Competition team that 
                             reached the world semifinals; collaborated on complex robot
@@ -351,7 +351,7 @@
                         </p>
                     </div>
                     <div class="achievement-card">
-                        <div class="achievement-basic">
+                        <div class="achievement-basic hidden-left">
                             <p class="achievement-title">
                                 FRC World Division Semifinalists
                             </p>
@@ -359,10 +359,10 @@
                                 Team 4206
                             </p>
                         </div>
-                        <p class="achievement-date">
+                        <p class="achievement-date hidden-right">
                             04/2023
                         </p>
-                        <p class="achievement-description">
+                        <p class="achievement-description hidden">
                             Demonstrated exceptional teamwork, problem-solving, & engineering 
                             skills as part of an FRC team that reached the division semifinals at the world
                             competition; collaborated on complex robot designs, programming,
@@ -370,7 +370,7 @@
                         </p>
                     </div>
                     <div class="achievement-card">
-                        <div class="achievement-basic">
+                        <div class="achievement-basic hidden-left">
                             <p class="achievement-title">
                                 2nd Degree Black Belt
                             </p>
@@ -378,10 +378,10 @@
                                 Lone Star Black Belt Academy
                             </p>
                         </div>
-                        <p class="achievement-date">
+                        <p class="achievement-date hidden-right">
                             08/2020
                         </p>
-                        <p class="achievement-description">
+                        <p class="achievement-description hidden">
                             7 year training in Taekwondo forms, sparring, weapons & techniques;
                             national competition in each discipline; teaching students the Bo Staff
                             weapon; mentoring & evaluating peers & younger students
@@ -396,9 +396,9 @@
                     </h1>
                 </div>
                 <div class="cards-container">
-                    <div class="contact-card">
+                    <div class="contact-card hidden">
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dmacatania@gmail.com" target="_blank">
-                            <img class="contact-image" src="{% static 'images/gmail.png' %}" alt="Email">
+                            <img class="contact-image" src="images/gmail.png" alt="Email">
                         </a>
                         <p class="contact-spec">
                             <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=dmacatania@gmail.com" target="_blank">
@@ -406,9 +406,9 @@
                             </a>
                         </p>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card hidden">
                         <a href="https://github.com/DomC18" target="_blank">
-                            <img class="contact-image" src="{% static 'images/github.png' %}" alt="Github">
+                            <img class="contact-image" src="images/github.png" alt="Github">
                         </a>
                         <p class="contact-spec">
                             <a class="contact-link" href="https://github.com/DomC18" target="_blank">
@@ -416,9 +416,9 @@
                             </a>
                         </p>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card hidden-up">
                         <a href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
-                            <img class="contact-image" src="{% static 'images/linkedin.png' %}" alt="LinkedIn">
+                            <img class="contact-image" src="images/linkedin.png" alt="LinkedIn">
                         </a>
                         <p class="contact-spec">
                             <a class="contact-link" href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
@@ -426,9 +426,9 @@
                             </a>
                         </p>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card hidden-right">
                         <a href="https://www.instagram.com/domcatania/?next=%2F" target="_blank">
-                            <img class="contact-image" src="{% static 'images/instagram.png' %}" alt="Instagram">
+                            <img class="contact-image" src="images/instagram.png" alt="Instagram">
                         </a>
                         <p class="contact-spec">
                             <a class="contact-link" href="https://www.instagram.com/domcatania/?next=%2F" target="_blank">
@@ -436,9 +436,9 @@
                             </a>
                         </p>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card hidden-right">
                         <a href="https://x.com/dmacatania" target="_blank">
-                            <img class="contact-image" src="{% static 'images/twitter.png' %}" alt="Twitter/X">
+                            <img class="contact-image" src="images/twitter.png" alt="Twitter/X">
                         </a>
                         <p class="contact-spec">
                             <a class="contact-link" href="https://x.com/dmacatania" target="_blank">

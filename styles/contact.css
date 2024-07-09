@@ -34,12 +34,21 @@
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    transition: all 0.25s ease-in-out;
+}
+.contact-image:hover {
+    width: 210px;
+    height: 210px;
 }
 .contact-spec {
     font-size: 20px;
 }
 .contact-link {
     color: rgb(255, 0, 0);
+    transition: all 0.25s ease-in-out;
+}
+.contact-link:hover {
+    font-size: 22px;
 }
 
 
