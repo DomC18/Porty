@@ -24,9 +24,3 @@ body {
     filter: blur(0);
     transform: translateX(0);
 }
-
-@media (prefers-reduced-motion) {
-    .hidden {
-        transition: none;
-    }
-}

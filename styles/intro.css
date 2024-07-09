@@ -3,7 +3,7 @@
     width: auto;
     height: 1000px;
 }
-.intro-container{
+.intro-container {
     display: inline-block;
     align-content: center;
 }
@@ -16,7 +16,7 @@
     margin-bottom: 0px;
 }
 .name-label {
-    color: rgb(225, 0, 0);
+    color: rgb(245, 0, 0);
     margin-top: 0px;
     font-size: 70px;
     font-weight: bold;
@@ -58,7 +58,7 @@
     transition: all 0.25s ease-in-out;
 }
 .specialization-image:hover {
-    max-width: 105%;
+    max-width: 110%;
 }
 .logo-container {
     align-content: center;
