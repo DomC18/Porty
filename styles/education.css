@@ -38,6 +38,7 @@
 }
 .education-img {
     object-fit: contain;
+    transition: all 0.25s ease-in-out;
 }
 
 .education-info {
@@ -88,15 +89,24 @@
     .education-img {
         width: 50%;
     }
+    .education-img:hover {
+        width: 52%;
+    }
 }
 @media (max-width: 1339px) and (min-width: 1215px) {
     .education-img {
         width: 60%;
     }
+    .education-img:hover {
+        width: 62%;
+    }
 }
 @media (max-width: 1215px) {
     .education-img {
         width: 70%;
+    }
+    .education-img:hover {
+        width: 72%;
     }
 }
 
