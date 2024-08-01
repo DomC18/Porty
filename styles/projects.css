@@ -148,9 +148,14 @@
         font-size: 20px;
     }
 }
-@media (max-width: 656px) {
+@media (max-width: 656px) and (min-width: 466px) {
     .project-description {
         font-size: 16px;
+    }
+}
+@media (max-width: 466px) {
+    .project-description {
+        font-size: 14px;
     }
 }
 
