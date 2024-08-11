@@ -138,9 +138,19 @@
         font-size: 17px;
     }
 }
-@media (max-width: 411px) {
+@media (max-width: 411px) and (min-width: 360px) {
     .achievement-description {
         font-size: 14px;
+    }
+}
+@media (max-width: 360px) and (min-width: 300px) {
+    .achievement-description {
+        font-size: 12px;
+    }
+}
+@media (max-width: 300px) {
+    .achievement-description {
+        font-size: 10px;
     }
 }
 

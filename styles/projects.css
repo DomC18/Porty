@@ -153,9 +153,19 @@
         font-size: 16px;
     }
 }
-@media (max-width: 466px) {
+@media (max-width: 466px) and (min-width: 380px) {
     .project-description {
         font-size: 14px;
+    }
+}
+@media (max-width: 380px) and (min-width: 330px) {
+    .project-description {
+        font-size: 12px;
+    }
+}
+@media (max-width: 330px) {
+    .project-description {
+        font-size: 10px;
     }
 }
 
