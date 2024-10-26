@@ -51,37 +51,71 @@
                     <p class="hello-label">
                         Hello, my name is
                     </p>
-                    <p class="name-label">
+                    <p class="name-label" id="name-label">
                         Dominic Catania,
                     </p>
+                    <p class="job-label pin-label" id="pin-label">
+                        <img class="pin-image" src="images/pin.png" alt=""> College Station
+                    </p>
                     <p class="job-label">
-                        An aspiring software engineer proficient in...
+                        A software engineering student proficient in...
                     </p>
                     <div class="specializations-container">
                         <div class="specialization hidden">
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                            <a id="html-logo" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
                                 <img class="specialization-image" src="images/html.png" alt="">
                             </a>
+                            <p id="html-text" class="specialization-text">
+                                HTML
+                            </p>
                         </div>
                         <div class="specialization hidden">
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                            <a id="css-logo" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
                                 <img class="specialization-image" src="images/css.png" alt="">
                             </a>
+                            <p id="css-text" class="specialization-text">
+                                CSS
+                            </p>
                         </div>
                         <div class="specialization hidden">
-                            <a href="https://www.python.org/" target="_blank">
-                                <img class="specialization-image" src="images/python.png" alt="">
+                            <a id="js-logo" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                                <img class="specialization-image" src="images/javascript.png" alt="">
                             </a>
+                            <p id="js-text" class="specialization-text">
+                                JS
+                            </p>
                         </div>
                         <div class="specialization hidden">
-                            <a href="https://docs.djangoproject.com/en/5.0/" target="_blank">
-                                <img class="specialization-image" src="images/django.png" alt="">
+                            <a id="react-logo" href="https://legacy.reactjs.org/docs/getting-started.html" target="_blank">
+                                <img class="ninety-image" src="images/react.png" alt="">
                             </a>
+                            <p id="react-text" class="specialization-text">
+                                React
+                            </p>
+                        </div>
+                        <div class="specialization hidden" style="padding: 0 0 0 0;">
+                            <a id="django-logo" href="https://docs.djangoproject.com/en/5.0/" target="_blank">
+                                <img class="sixtynine-image" src="images/django.png" alt="">
+                            </a>
+                            <p id="django-text" class="specialization-text">
+                                Django
+                            </p>
                         </div>
                         <div class="specialization hidden">
-                            <a href="https://www.java.com/en/" target="_blank">
-                                <img class="specialization-image" src="images/java.png" alt="">
+                            <a id="python-logo" href="https://www.python.org/" target="_blank">
+                                <img class="ninety-image" src="images/python.png" alt="">
                             </a>
+                            <p id="python-text" class="specialization-text">
+                                Python
+                            </p>
+                        </div>
+                        <div class="specialization hidden">
+                            <a id="java-logo" href="https://www.java.com/en/" target="_blank">
+                                <img class="ninety-image" src="images/java.png" alt="">
+                            </a>
+                            <p id="java-text" class="specialization-text">
+                                Java
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -117,11 +151,8 @@
                                 </p>
                             </div>
                             <div class="education-roles-container">
-                                <p class="education-role">
-                                    <span class="edu-dot">&#8226;</span> General Engineering Major
-                                </p>
                                 <p class="education-role" style="margin-bottom: 50px;">
-                                    <span class="edu-dot">&#8226;</span> Seeking degree in Computer Science
+                                    <span class="edu-dot">&#8226;</span> General Engineering → Computer Science
                                 </p>
                                 <p class="education-role">
                                     Organizations:
@@ -130,10 +161,10 @@
                                     <span class="edu-dot">&#8226;</span> Aggie Robotics
                                 </p>
                                 <p class="education-role">
-                                    <span class="edu-dot">&#8226;</span> Fish Council
+                                    <span class="edu-dot">&#8226;</span> Class Councils - Fish Council
                                 </p>
                                 <p class="education-role">
-                                    <span class="edu-dot">&#8226;</span> Class Councils
+                                    <span class="edu-dot">&#8226;</span> Triangle Fraternity
                                 </p>
                                 <p class="education-role" style="margin-bottom: 50px;">
                                     <span class="edu-dot">&#8226;</span> Christian Engineering Leaders
@@ -213,13 +244,35 @@
                 <div class="projects-grid">
                     <div class="project-card hidden-left">
                         <div class="project-basics">
-                            <a class="project-link" href="https://github.com/DomC18/Vigil" target="_blank">
+                            <a class="project-link" href="https://github.com/DomC18/PathGen/tree/master" target="_blank">
+                                <p class="project-title">
+                                    PathGen
+                                </p>
+                                <img class="project-github" src="images/github.png" alt="github-logo">
+                            </a>
+                            <a href="https://github.com/DomC18/PathGen/tree/master" target="_blank">
+                                <img class="project-image" src="images/pathgen.png" alt="Vigil Image">
+                            </a>
+                        </div>
+                        <div class="project-specs">
+                            <p class="project-description">
+                                React web application for creating paths for VEXU robotics,
+                                including constraint zones, event markers, and precise waypoint editing
+                            </p>
+                            <p class="project-duration">
+                                October 2024 - Present
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card hidden-right">
+                        <div class="project-basics">
+                            <a class="project-link" href="https://github.com/DomC18/Vigil/tree/main" target="_blank">
                                 <p class="project-title">
                                     Vigil
                                 </p>
                                 <img class="project-github" src="images/github.png" alt="github-logo">
                             </a>
-                            <a href="https://github.com/DomC18/Vigil" target="_blank">
+                            <a href="https://github.com/DomC18/Vigil/tree/main" target="_blank">
                                 <img class="project-image" src="images/vigilrobot.png" alt="Vigil Image">
                             </a>
                         </div>
@@ -234,7 +287,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-card hidden-right">
+                    <div class="project-card hidden-left">
                         <div class="project-basics">
                             <a class="project-link" href="https://github.com/DomC18/FlowNote" target="_blank">
                                 <p class="project-title">
@@ -256,7 +309,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-card hidden-left">
+                    <div class="project-card hidden-right">
                         <div class="project-basics">
                             <a class="project-link" href="https://github.com/DomC18/Apothiki" target="_blank">
                                 <p class="project-title">
@@ -275,28 +328,6 @@
                             </p>
                             <p class="project-duration">
                                 May 2024 - June 2024
-                            </p>
-                        </div>
-                    </div>
-                    <div class="project-card hidden-right">
-                        <div class="project-basics">
-                            <a class="project-link" href="https://github.com/DomC18/TaskManager" target="_blank">
-                                <p class="project-title">
-                                    TaskManager
-                                </p>
-                                <img class="project-github" src="images/github.png" alt="github-logo">
-                            </a>
-                            <a href="https://github.com/DomC18/TaskManager" target="_blank">
-                                <img class="project-image" src="images/taskmanager.png" alt="Lean Image">
-                            </a>
-                        </div>
-                        <div class="project-specs">
-                            <p class="project-description">
-                                Sister Python Application to Apothiki, todo-list system with live calendar,
-                                importance and deadline filtering
-                            </p>
-                            <p class="project-duration">
-                                April 2024 - June 2024
                             </p>
                         </div>
                     </div>

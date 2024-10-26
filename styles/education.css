@@ -24,7 +24,7 @@
 }
 
 .education-card {
-    margin: 25px 150px 25px 25px;
+    margin: 25px;
     display: flex;
     flex-flow: row wrap;
 }
@@ -87,10 +87,10 @@
 
 @media (min-width: 1339px) {
     .education-img {
-        width: 50%;
+        width: 60%;
     }
     .education-img:hover {
-        width: 52%;
+        width: 62%;
     }
 }
 @media (max-width: 1339px) and (min-width: 1215px) {

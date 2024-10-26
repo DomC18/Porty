@@ -25,6 +25,7 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    margin: 0 25px;
 }
 .contact-card {
     height: 300px;
