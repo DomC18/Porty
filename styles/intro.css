@@ -17,29 +17,17 @@
 }
 .name-label {
     color: rgb(245, 0, 0);
-    margin-top: 0px;
+    margin-top: -12px;
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 0px;
-    cursor: none;
 }
 .job-label {
-    display: flex;
     align-items: center;
     justify-content: left;
     color: rgb(255, 146, 146);
     margin-top: 0px;
     font-size: 30px;
-}
-.pin-label {
-    opacity: 0;
-    margin-bottom: 20px; 
-    margin-top: -20px; 
-    color: white;
-    cursor: default;
-}
-.pin-image {
-    width: 30px;
 }
 .specializations-container {
     margin-left: 20px;
@@ -108,11 +96,13 @@
 }
 .logo {
     max-width: 100%;
+    padding: 0 2.5%;
     object-fit: cover;
     transition: all 0.25s ease-in-out;
 }
 .logo:hover {
     max-width: 105%;
+    padding: 0;
 }
 
 
@@ -127,6 +117,9 @@
     .intro-section-container {
         grid-template-columns: 1fr 1fr;
     }
+    .job-label {
+        display: flex;
+    }
 }
 @media (max-width: 1070px) {
     .logo-container {
@@ -139,5 +132,8 @@
     .hello-label, .name-label, .job-label {
         text-align: center;
         margin-left: 0px;
+    }
+    .job-label {
+        display: block;
     }
 }

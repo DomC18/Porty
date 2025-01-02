@@ -1,11 +1,17 @@
-function textActive(text) {
+function textActive(text, useHeight) {
     textElement = document.getElementById(text);
     textElement.style.opacity = 1;
+    if (useHeight) {
+        textElement.style.height = '45px';
+    }
 }
 
-function textDeactive(text) {
+function textDeactive(text, useHeight) {
     textElement = document.getElementById(text);
     textElement.style.opacity = 0;
+    if (useHeight) {
+        textElement.style.height = 0;
+    }
 }
 
 
@@ -27,19 +33,17 @@ hiddenLeftElements.forEach((element) => observer.observe(element));
 hiddenRightElements.forEach((element) => observer.observe(element));
 hiddenUpElements.forEach((element) => observer.observe(element));
 
-document.getElementById("name-label").addEventListener("mouseover", () => textActive("pin-label"));
-document.getElementById("name-label").addEventListener("mouseout", () => textDeactive("pin-label"));
-document.getElementById("html-logo").addEventListener("mouseover", () => textActive("html-text"));
-document.getElementById("css-logo").addEventListener("mouseover", () => textActive("css-text"));
-document.getElementById("js-logo").addEventListener("mouseover", () => textActive("js-text"));
-document.getElementById("react-logo").addEventListener("mouseover", () => textActive("react-text"));
-document.getElementById("django-logo").addEventListener("mouseover", () => textActive("django-text"));
-document.getElementById("python-logo").addEventListener("mouseover", () => textActive("python-text"));
-document.getElementById("java-logo").addEventListener("mouseover", () => textActive("java-text"));
-document.getElementById("html-logo").addEventListener("mouseout", () => textDeactive("html-text"));
-document.getElementById("css-logo").addEventListener("mouseout", () => textDeactive("css-text"));
-document.getElementById("js-logo").addEventListener("mouseout", () => textDeactive("js-text"));
-document.getElementById("react-logo").addEventListener("mouseout", () => textDeactive("react-text"));
-document.getElementById("django-logo").addEventListener("mouseout", () => textDeactive("django-text"));
-document.getElementById("python-logo").addEventListener("mouseout", () => textDeactive("python-text"));
-document.getElementById("java-logo").addEventListener("mouseout", () => textDeactive("java-text"));
+document.getElementById("html-logo").addEventListener("mouseover", () => textActive("html-text", false));
+document.getElementById("css-logo").addEventListener("mouseover", () => textActive("css-text", false));
+document.getElementById("js-logo").addEventListener("mouseover", () => textActive("js-text", false));
+document.getElementById("react-logo").addEventListener("mouseover", () => textActive("react-text", false));
+document.getElementById("django-logo").addEventListener("mouseover", () => textActive("django-text", false));
+document.getElementById("python-logo").addEventListener("mouseover", () => textActive("python-text", false));
+document.getElementById("java-logo").addEventListener("mouseover", () => textActive("java-text", false));
+document.getElementById("html-logo").addEventListener("mouseout", () => textDeactive("html-text", false));
+document.getElementById("css-logo").addEventListener("mouseout", () => textDeactive("css-text", false));
+document.getElementById("js-logo").addEventListener("mouseout", () => textDeactive("js-text", false));
+document.getElementById("react-logo").addEventListener("mouseout", () => textDeactive("react-text", false));
+document.getElementById("django-logo").addEventListener("mouseout", () => textDeactive("django-text", false));
+document.getElementById("python-logo").addEventListener("mouseout", () => textDeactive("python-text", false));
+document.getElementById("java-logo").addEventListener("mouseout", () => textDeactive("java-text", false));
