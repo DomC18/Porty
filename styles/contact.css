@@ -1,6 +1,6 @@
 .contact-container {
     width: auto;
-    margin: 250px 16px 50px 16px;
+    margin: 250px 16px 0px 16px;
 }
 
 .contact-label-container {
@@ -51,12 +51,6 @@
     font-size: 22px;
 }
 
-.dmac-container {
-    padding: 0 25px;
-}
-.dmac-logo {
-    max-width: 100%;
-}
 
 
 
