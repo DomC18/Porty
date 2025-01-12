@@ -54,7 +54,6 @@
 .project-basics {
     margin: 0px;
     display: inline-block;
-    left: 0;
     vertical-align: middle;
     height: 300px;
 }
@@ -88,7 +87,6 @@
     margin: 0px;
     display: grid;
     height: 300px;
-    right: 0;
     vertical-align: middle;
 }
 .project-description {

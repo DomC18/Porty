@@ -19,21 +19,26 @@
 }
 .education-grid {
     width: auto;
+    margin: 0 25px;
+    row-gap: 100px;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 .education-card {
-    margin: 25px;
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    padding: 26px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .education-basic {
-    flex: 1;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
 }
 .education-title {
-    margin: 8px 8px 8px 8px;
+    margin: 0 8px 8px 0;
     color: rgb(255,100,100);
 }
 .education-img {
@@ -49,12 +54,11 @@
     grid-template-columns: 1fr 1fr;
 }
 .education-duration {
-    margin-top: 24px;
+    margin: 16px 0 12px 0;
     color: rgb(255,100,100);
 }
 .education-gpa {
-    margin-top: 24px;
-    margin-right: 24px;
+    margin: 16px 24px 12px 0;
     text-align: right;
     color: rgb(255,100,100);
 }
@@ -85,28 +89,26 @@
 }
 
 
-@media (min-width: 1339px) {
-    .education-img {
-        width: 60%;
-    }
-    .education-img:hover {
-        width: 62%;
-    }
-}
-@media (max-width: 1339px) and (min-width: 1215px) {
-    .education-img {
-        width: 60%;
-    }
-    .education-img:hover {
-        width: 62%;
-    }
-}
-@media (max-width: 1215px) {
+@media (min-width: 1215px) {
     .education-img {
         width: 70%;
     }
     .education-img:hover {
         width: 72%;
+    }
+    .education-basic {
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1215px) {
+    .education-img {
+        width: 90%;
+    }
+    .education-img:hover {
+        width: 92%;
+    }
+    .education-basic {
+        justify-content: center;
     }
 }
 
@@ -119,37 +121,5 @@
 @media (max-width: 1274px) {
     .education-title {
         font-size: 40px;
-    }
-}
-
-
-
-@media (min-width: 577px) {
-    .education-grid {
-        row-gap: 0px;
-    }
-    .education-basic {
-        padding-bottom: 0px; 
-        border: none;
-    }
-    .education-info {
-        margin-left: 0px;
-    }
-}
-@media (max-width: 577px) {
-    .education-grid {
-        row-gap: 20px;
-    }
-    .education-basic {
-        padding-bottom: 18px;
-        border-color: rgb(255,100,100);
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-top-width: 0px;
-        border-left-width: 0px;
-        border-right-width: 0px;
-    }
-    .education-info {
-        margin-left: 8px;
     }
 }
