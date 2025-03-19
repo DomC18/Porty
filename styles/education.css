@@ -98,9 +98,6 @@
     .education-img {
         width: 70%;
     }
-    .education-img:hover {
-        width: 72%;
-    }
     .education-basic {
         justify-content: space-between;
     }
@@ -108,9 +105,6 @@
 @media (max-width: 1215px) {
     .education-img {
         width: 90%;
-    }
-    .education-img:hover {
-        width: 92%;
     }
     .education-basic {
         justify-content: center;
