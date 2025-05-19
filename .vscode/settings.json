@@ -3,6 +3,7 @@
     "cSpell.words": [
         "Apothiki",
         "Datathon",
+        "Deactive",
         "domcatania",
         "Esto",
         "Fonix",
@@ -10,5 +11,8 @@
         "RLGL",
         "Taekwondo",
         "VEXU"
+    ],
+    "cSpell.ignoreWords": [
+        "sixtynine"
     ]
 }

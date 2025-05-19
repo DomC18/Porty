@@ -2,6 +2,7 @@
     display: grid;
     width: auto;
     height: 900px;
+    margin-top: 77px;
 }
 .intro-container {
     display: inline-block;
@@ -92,17 +93,15 @@
 }
 .logo-container {
     align-content: center;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo {
-    max-width: 100%;
+    max-width: 60%;
     padding: 0 2.5%;
     object-fit: cover;
     transition: all 0.25s ease-in-out;
-}
-.logo:hover {
-    max-width: 105%;
-    padding: 0;
 }
 
 

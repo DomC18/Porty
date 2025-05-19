@@ -67,16 +67,15 @@
     font-size: 30px;
     margin-bottom: 0px;
     margin-top: 14px;
-    color: rgb(150, 150, 150);
+    color: rgb(220, 220, 220);
 }
 .edu-dot {
     font-size: 30px;
     margin-bottom: 0px;
 }
 .edu-role {
-    display: block;
-    font-size: 23px;
-    padding-left: 46px;
+    display: inline-block;
+    color: rgb(124, 124, 124)
 }
 
 
