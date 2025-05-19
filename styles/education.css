@@ -49,17 +49,19 @@
     flex: 1;
 }
 .education-specs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .education-duration {
     margin: 16px 0 12px 0;
     color: rgb(255,100,100);
+    display: inline-block;
 }
 .education-gpa {
     margin: 16px 24px 12px 0;
     text-align: right;
     color: rgb(255,100,100);
+    display: inline-block;
 }
 .education-role {
     font-size: 30px;
@@ -101,7 +103,7 @@
         width: 70%;
     }
     .education-specs {
-        display: block;
+        display: flex;
     }
     .education-basic {
         justify-content: space-between;
