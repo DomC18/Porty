@@ -4,7 +4,7 @@
 }
 
 .project-label-container {
-    margin: 200px 25px 50px 25px;
+    margin: 200px 25px 34px 25px;
     border: none;
     border-style: solid;
     border-color: rgb(245, 0, 0);
@@ -20,16 +20,16 @@
 }
 
 .projects-grid {
-    margin: 0px 25px 0px 25px;
+    margin: 0px 34px 0px 34px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 34px;
+    gap: 34px 34px;
 }
 .project-card {
-    border: solid 3px rgb(255,100,100);
+    border: solid 6px rgba(171, 67, 67, 0.742);
     height: 300px;
     display: grid;
+    column-gap: 20px;
     grid-template-columns: 1fr 1fr;
 }
 .project-card:nth-child(1) {
@@ -53,8 +53,8 @@
 
 .project-basics {
     margin: 0px;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
     height: 300px;
 }
 .project-link {
@@ -67,7 +67,8 @@
 .project-title {
     font-size: 40px;
     display: inline-block;
-    color: rgb(255,100,100);
+    color: rgb(255, 0, 0);
+    font-weight: bold;
     margin: 0px 0px 0px 8px;
 }
 .project-github {
@@ -80,21 +81,22 @@
 .project-image {
     width: 100%;
     height: 240px;
-    object-fit: cover;
-    margin-left: 0px;
+    object-fit: contain;
 }
 .project-specs {
     margin: 0px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 300px;
-    vertical-align: middle;
 }
 .project-description {
-    color: rgb(150, 150, 150);
-    height: 224px;
+    color: rgb(201, 201, 201);
+    max-height: 224px;
     text-align: right;
     margin-top: 7px;
     margin-right: 10px;
+    font-weight: 200;
 }
 .project-duration {
     color: rgb(255,100,100);

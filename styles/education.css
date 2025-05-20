@@ -67,7 +67,8 @@
     font-size: 30px;
     margin-bottom: 0px;
     margin-top: 14px;
-    color: rgb(220, 220, 220);
+    font-weight: 200;
+    color: rgb(150, 150, 150);
 }
 .edu-dot {
     font-size: 30px;
@@ -75,7 +76,8 @@
 }
 .edu-role {
     display: inline-block;
-    color: rgb(124, 124, 124)
+    font-weight: 300;
+    color: rgb(227, 227, 227)
 }
 
 
