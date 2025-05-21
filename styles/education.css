@@ -1,5 +1,5 @@
 .education-label-container {
-    margin: 200px 25px 50px 25px;
+    margin: 200px 40px 50px;
     border: none;
     border-style: solid;
     border-color: rgb(245, 0, 0);
@@ -9,7 +9,7 @@
     border-right-width: 0px;
 }
 .education-label {
-    font-size: 65px;
+    font-size: 80px;
     padding: 0px 0px 5px 0px;
     margin-bottom: 24px;
     color: rgb(245, 0, 0);
@@ -19,7 +19,6 @@
 }
 .education-grid {
     width: auto;
-    margin: 0 25px;
     row-gap: 100px;
     display: grid;
     grid-template-columns: 1fr;
@@ -27,7 +26,7 @@
 
 .education-card {
     display: grid;
-    padding: 26px;
+    padding: 0 40px;
 }
 
 .education-basic {

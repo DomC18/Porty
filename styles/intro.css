@@ -2,7 +2,7 @@
     display: grid;
     width: auto;
     height: 900px;
-    margin-top: 77px;
+    margin: 77px 40px;
 }
 .intro-container {
     display: inline-block;
@@ -88,7 +88,7 @@
     padding: 0px 4px;
 }
 .sixtynine-image:hover {
-    max-width: calc(69% + 8px);
+    max-width: calc(69% + 6px);
     padding: 0px 4px;
 }
 .logo-container {
