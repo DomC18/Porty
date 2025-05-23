@@ -7,6 +7,7 @@
         <link rel="shortcut icon" href="images/logored.ico" />
         <link rel="stylesheet" href="styles/achievements.css">
         <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/courses.css">
         <link rel="stylesheet" href="styles/education.css">
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
@@ -18,35 +19,56 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <script defer src="home.js"></script>
     </head>
-    <body id="home">
-        <main>
-            <header class="header-container">
-                <div>
-                    <a href="#home">
-                        <img class="small-logo" src="images/logored.png" alt="DMAC">
-                    </a>
+    <body>
+        <header class="header-container" id="header">
+            <div class="link-container">
+                <a href="#home">
+                    <img class="small-logo" src="images/logored.png" alt="DMAC">
+                </a>
+            </div>
+            <div style="margin-right: 15px;">
+                <div class="link-container-container">
+                    <div class="link-container">
+                        <a class="link" href="images/Dominic_Catania_2028_Resume.pdf" target="_blank">
+                            Resume
+                        </a>
+                    </div>
                 </div>
-                <div style="margin-right: 15px;">
-                    <a class="link" href="images/Dominic_Catania_2028_Resume.pdf" target="_blank">
-                        Resume
-                    </a>
-                    <a class="link" href="#projects">
-                        Projects
-                    </a>
-                    <a class="link" href="#education">
-                        Education
-                    </a>
-                    <a class="link" href="#achievements">
-                        Achievements
-                    </a>
-                    <a class="link" href="#contact">
-                        Contact
-                    </a>
+                <div class="link-container-container">
+                    <div class="link-container">
+                        <a class="link" href="#projects">
+                            Projects
+                        </a>
+                    </div>
                 </div>
-            </header>
-            <section class="intro-section-container">
+                <div class="link-container-container">
+                    <div class="link-container">
+                        <a class="link" href="#education" style="margin-right: -4px;">
+                            Education
+                        </a>
+                        <img class="link-arrow" id="arrow1" src="images/uparrowheader.png" alt="">
+                    </div>
+                </div>
+                <div class="link-container-container">
+                    <div class="link-container">
+                        <a class="link" href="#achievements" style="margin-left: 4px;">
+                            Achievements
+                        </a>
+                    </div>
+                </div>
+                <div class="link-container-container">
+                    <div class="link-container">
+                        <a class="link" href="#contact">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="home">
+            <section class="intro-section-container" id="intro-section">
                 <div class="intro-container hidden-left">
-                    <div>
+                    <div class="link-container-container">
                         <p class="hello-label">
                             Hello, my name is
                         </p>
@@ -485,65 +507,136 @@
                     </div>
                 </div>
             </section>
-            <footer class="contact-container" id="contact">
-                <div class="contact-label-container">
-                    <h1 class="contact-label">
-                        Contact me here!
-                    </h1>
-                </div>
-                <div class="cards-container">
-                    <div class="contact-card hidden">
-                        <a href="https://www.instagram.com/domcatania" target="_blank">
-                            <img class="contact-image" src="images/instagram.png" alt="Instagram">
-                        </a>
-                        <p class="contact-spec">
-                            <a class="contact-link" href="https://www.instagram.com/domcatania" target="_blank">
-                                @domcatania
-                            </a>
-                        </p>
-                    </div>
-                    <div class="contact-card hidden">
-                        <a href="https://www.linkedin.com/in/dominiccatania" target="_blank">
-                            <img class="contact-image" src="images/linkedin.png" alt="LinkedIn">
-                        </a>
-                        <p class="contact-spec">
-                            <a class="contact-link" href="https://www.linkedin.com/in/dominiccatania/" target="_blank">
-                                Dominic Catania
-                            </a>
-                        </p>
-                    </div>
-                    <div class="contact-card hidden">
-                        <a href="https://github.com/DomC18" target="_blank">
-                            <img class="contact-image" src="images/github.png" alt="Github">
-                        </a>
-                        <p class="contact-spec">
-                            <a class="contact-link" href="https://github.com/DomC18" target="_blank">
-                                DomC18
-                            </a>
-                        </p>
-                    </div>
-                    <div class="contact-card hidden-right">
-                        <a href="https://codepen.io/Dominic-Catania" target="_blank">
-                            <img class="contact-image" src="images/codepen.png" alt="Codepen">
-                        </a>
-                        <p class="contact-spec">
-                            <a class="contact-link" href="https://codepen.io/Dominic-Catania" target="_blank">
-                                @Dominic-Catania
-                            </a>
-                        </p>
-                    </div>
-                    <div class="contact-card hidden-right">
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dom@catania.com" target="_blank">
-                            <img class="contact-image" src="images/gmail.png" alt="Email">
-                        </a>
-                        <p class="contact-spec">
-                            <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=dom@catania.com" target="_blank">
-                                dom@catania.com
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </footer>
         </main>
+        <div class="arrow-content-container-container" id="arrowContent1" style="display: none; pointer-events: none; cursor: default;">
+            <div class="arrow-content-container">
+                <div class="content-container">
+                    <div class="content-base-container">
+                        <p class="content-base-name" id="arrowName2">
+                            Reflections
+                        </p>
+                        <img class="link-arrow inside-arrow" id="arrow2" src="images/uparrowheader.png" alt="">
+                    </div>
+                    <div class="content-spec-container" id="arrowContent2" style="display: none; pointer-events: none; cursor: default;">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-content-container">
+                <div class="content-container">
+                    <div class="content-base-container">
+                        <p class="content-base-name" id="arrowName3">
+                            Courses
+                        </p>
+                        <img class="link-arrow inside-arrow" id="arrow3" src="images/uparrowheader.png" alt="">
+                    </div>
+                    <div class="content-spec-container" id="arrowContent3" style="display: none; pointer-events: none; cursor: default;">
+                        <div class="content-name-container">
+                            <div class="content-name" id="courseContent1">
+                                ENGR 102
+                            </div>
+                        </div>
+                        <div class="content-name-container">
+                            <div class="content-name" id="courseContent2">
+                                STAT 211
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="course-content-container" id="courseContentContainer1" style="display: none;">
+            <div class="course-content-label-container">
+                <h1 class="course-content-label">
+                    ENGR 102
+                </h1>
+            </div>
+            <div class="course-content-main-container">
+                <p class="course-content-description">
+                    <span class="paragraph">
+                        Pretty easy class not gonna lie
+                    </span>
+                    <span class="paragraph">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="course-content-container" id="courseContentContainer2" style="display: none;">
+            <div class="course-content-label-container">
+                <h1 class="course-content-label">
+                    STAT 211
+                </h1>
+            </div>
+            <div class="course-content-main-container">
+                <p class="course-content-description">
+                    <span class="paragraph" style="display: block;">
+                        Pretty easy class not gonna lie
+                    </span>
+                    <span class="paragraph" style="display: block;">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </span>
+                </p>
+            </div>
+        </div>
+        <footer class="contact-container" id="contact">
+            <div class="contact-label-container">
+                <h1 class="contact-label">
+                    Contact me here!
+                </h1>
+            </div>
+            <div class="cards-container">
+                <div class="contact-card hidden">
+                    <a href="https://www.instagram.com/domcatania" target="_blank">
+                        <img class="contact-image" src="images/instagram.png" alt="Instagram">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://www.instagram.com/domcatania" target="_blank">
+                            @domcatania
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-card hidden">
+                    <a href="https://www.linkedin.com/in/dominiccatania" target="_blank">
+                        <img class="contact-image" src="images/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://www.linkedin.com/in/dominiccatania/" target="_blank">
+                            Dominic Catania
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-card hidden">
+                    <a href="https://github.com/DomC18" target="_blank">
+                        <img class="contact-image" src="images/github.png" alt="Github">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://github.com/DomC18" target="_blank">
+                            DomC18
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-card hidden-right">
+                    <a href="https://codepen.io/Dominic-Catania" target="_blank">
+                        <img class="contact-image" src="images/codepen.png" alt="Codepen">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://codepen.io/Dominic-Catania" target="_blank">
+                            @Dominic-Catania
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-card hidden-right">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dom@catania.com" target="_blank">
+                        <img class="contact-image" src="images/gmail.png" alt="Email">
+                    </a>
+                    <p class="contact-spec">
+                        <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=dom@catania.com" target="_blank">
+                            dom@catania.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

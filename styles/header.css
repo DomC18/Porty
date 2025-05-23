@@ -11,14 +11,32 @@
     background-color: rgb(50, 50, 50);
     z-index: 100;
 }
+.link-container-container {
+    display: inline-block;
+}
+.link-container {
+    display: flex;
+    align-items: center;
+}
 .link {
     color: rgb(255,100,100);
     font-size: 20px;
     margin-left: 20px;
     transition: all 0.25s ease-in-out;
+    text-decoration: none;
+    scale: 1;
 }
 .link:hover {
-    font-size: 22px;
+    scale: 1.1;
+}
+.link-arrow {
+    width: 40px;
+    height: 28px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.link-arrow:hover {
+    scale: 1.4;
 }
 .small-logo {
     width: 100px;
@@ -27,8 +45,52 @@
     transition: all 0.25s ease-in-out;
 }
 .small-logo:hover {
-    width: 110px;
-    height: 77px;
+    scale: 1.15;
+}
+.arrow-content-container-container {
+    position: fixed;
+    top: 50px;
+    right: 285px;
+    color: rgb(255, 100, 100);
+    border: solid rgb(255, 100, 100) 1px;
+    background-color: rgb(50, 50, 50);
+}
+.arrow-content-container {
+    display: block;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+.content-base-container {
+    display: flex;
+    align-items: center;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    margin: 10px 0 8px 0;
+}
+.content-base-container:hover {
+    scale: 1.05;
+}
+.content-spec-container {
+    transition: all 0.125s ease-in-out;
+}
+.content-base-name {
+    font-size: 18px;
+    margin: 0 -10px 0 10px;
+    transition: all 0.25s ease-in-out;
+}
+.content-name {
+    font-size: 16px;
+    margin: 0 0 6px 22px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.content-name:hover {
+    opacity: 0.7;
+}
+.inside-arrow:hover {
+    scale: 1;
 }
 
 

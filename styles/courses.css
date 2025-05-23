@@ -1,0 +1,26 @@
+.course-content-container {
+    margin: 280px 0;
+}
+.course-content-label-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.course-content-label {
+    margin: 0;
+    color: rgb(255, 100, 100);
+    font-size: 50px;
+}
+.course-content-main-container {
+    border: solid 6px rgb(255, 100, 100);
+    margin: 20px 300px;
+    padding: 6px 20px;
+}
+.course-content-description {
+    color: rgb(150, 150, 150);
+    font-size: 26px;
+}
+.paragraph {
+    display: block;
+}
