@@ -2,7 +2,7 @@
     display: grid;
     width: auto;
     height: 900px;
-    margin: 77px 40px;
+    margin: 0 40px 77px 40px;
 }
 .intro-container {
     display: inline-block;

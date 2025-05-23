@@ -9,6 +9,10 @@ body {
     user-select: none;
 }
 
+.home {
+    padding-top: 77px;
+}
+
 .hidden, .hidden-left, .hidden-right, .hidden-up {
     opacity: 0;
     filter: blur(5px);
