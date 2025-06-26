@@ -3,6 +3,7 @@
 }
 .course-content-label-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -12,9 +13,13 @@
     color: rgb(255, 100, 100);
     font-size: 50px;
 }
+.course-content-name {
+    color: rgb(255, 255, 255);
+    margin: 0 0 6px 0;
+}
 .course-content-main-container {
     border: solid 6px rgb(255, 100, 100);
-    margin: 20px 300px;
+    margin: 20px 15.6%;
     padding: 6px 20px;
 }
 .course-content-description {
