@@ -200,6 +200,9 @@ arrow2.addEventListener("click", () => {
         arrow2.src = "images/downarrowheader.png";
         expandArrow(arrowContent2);
         arrow2Expanded = true;
+        arrow3.src = "images/uparrowheader.png";
+        contractArrow(arrowContent3);
+        arrow3Expanded = false;
     }
 });
 arrowName2.addEventListener("click", () => {
@@ -211,6 +214,9 @@ arrowName2.addEventListener("click", () => {
         arrow2.src = "images/downarrowheader.png";
         expandArrow(arrowContent2);
         arrow2Expanded = true;
+        arrow3.src = "images/uparrowheader.png";
+        contractArrow(arrowContent3);
+        arrow3Expanded = false;
     }
 });
 arrow3.addEventListener("click", () => {
@@ -222,6 +228,9 @@ arrow3.addEventListener("click", () => {
         arrow3.src = "images/downarrowheader.png";
         expandArrow(arrowContent3);
         arrow3Expanded = true;
+        arrow2.src = "images/uparrowheader.png";
+        contractArrow(arrowContent2);
+        arrow2Expanded = false;
     }
 });
 arrowName3.addEventListener("click", () => {
@@ -233,6 +242,9 @@ arrowName3.addEventListener("click", () => {
         arrow3.src = "images/downarrowheader.png";
         expandArrow(arrowContent3);
         arrow3Expanded = true;
+        arrow2.src = "images/uparrowheader.png";
+        contractArrow(arrowContent2);
+        arrow2Expanded = false;
     }
 });
 
