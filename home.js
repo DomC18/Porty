@@ -113,6 +113,9 @@ function textDeactive(text, useHeight) {
 function linkHandler(event) {
     event.preventDefault();
     contractContent();
+    arrow1.src = "images/uparrowheader.png";
+    contractArrow(arrowContent1);
+    arrow1Expanded = false;
 }
 
 function applyLinkHandler() {
