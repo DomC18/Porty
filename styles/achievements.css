@@ -185,3 +185,11 @@
         font-size: 30px;
     }
 }
+
+
+
+@media screen and (max-width: 900px) {
+    .achievements-label {
+        text-align: center;
+    }
+}

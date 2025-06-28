@@ -135,3 +135,12 @@
         font-size: 40px;
     }
 }
+
+
+
+@media screen and (max-width: 900px) {
+    .education-label {
+        font-size: 50px;
+        text-align: center;
+    }
+}
