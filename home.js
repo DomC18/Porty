@@ -10,7 +10,7 @@ const arrowName2 = document.getElementById("arrowName2");
 const arrow3 = document.getElementById("arrow3");
 const arrowName3 = document.getElementById("arrowName3");
 
-var contentExpandeds = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
+var contentExpandeds = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
 const home = document.getElementById("home");
 const courseContent1 = document.getElementById("courseContent1");
 const courseContentContainer1 = document.getElementById("courseContentContainer1");
@@ -58,7 +58,9 @@ const courseContent22 = document.getElementById("courseContent22");
 const courseContentContainer22 = document.getElementById("courseContentContainer22");
 const courseContent23 = document.getElementById("courseContent23");
 const courseContentContainer23 = document.getElementById("courseContentContainer23");
-const contentContainers = [courseContentContainer1, courseContentContainer2, courseContentContainer3, courseContentContainer4, courseContentContainer5, courseContentContainer6, courseContentContainer7, courseContentContainer8, courseContentContainer9, courseContentContainer10, courseContentContainer11, courseContentContainer12, courseContentContainer13, courseContentContainer14, courseContentContainer15, courseContentContainer16, courseContentContainer17, courseContentContainer18, courseContentContainer19, courseContentContainer20, courseContentContainer21, courseContentContainer22, courseContentContainer23];
+const courseContent24 = document.getElementById("courseContent24");
+const courseContentContainer24 = document.getElementById("courseContentContainer24");
+const contentContainers = [courseContentContainer1, courseContentContainer2, courseContentContainer3, courseContentContainer4, courseContentContainer5, courseContentContainer6, courseContentContainer7, courseContentContainer8, courseContentContainer9, courseContentContainer10, courseContentContainer11, courseContentContainer12, courseContentContainer13, courseContentContainer14, courseContentContainer15, courseContentContainer16, courseContentContainer17, courseContentContainer18, courseContentContainer19, courseContentContainer20, courseContentContainer21, courseContentContainer22, courseContentContainer23, courseContentContainer24];
 
 const hiddenElements = document.querySelectorAll('.hidden');
 const hiddenLeftElements = document.querySelectorAll('.hidden-left');
@@ -292,6 +294,13 @@ courseContent4.addEventListener("click", () => {
         generateContent(courseContentContainer4);
     }
 })
+courseContent24.addEventListener("click", () => {
+    if (contentExpandeds[23]) {
+        contractContent();
+    } else {
+        generateContent(courseContentContainer24);
+    }
+})
 courseContent5.addEventListener("click", () => {
     if (contentExpandeds[4]) {
         contractContent();
@@ -425,4 +434,3 @@ courseContent23.addEventListener("click", () => {
         generateContent(courseContentContainer23);
     }
 })
-
