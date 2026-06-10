@@ -7,8 +7,8 @@
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    border-color: rgb(255,100,100);
-    background-color: rgb(50, 50, 50);
+    border-color: rgb(10, 100, 150);
+    background-color: rgba(255, 255, 255, 0.85);
     z-index: 100;
 }
 .link-container-container {
@@ -22,7 +22,7 @@
     margin-right: 15px;
 }
 .link {
-    color: rgb(255,100,100);
+    color: rgb(0, 50, 130);
     font-size: 20px;
     margin-left: 20px;
     transition: all 0.25s ease-in-out;
@@ -39,7 +39,7 @@
     transition: all 0.25s ease-in-out;
 }
 .link-arrow:hover {
-    scale: 1.4;
+    scale: 1.25;
 }
 .small-logo {
     width: 100px;
@@ -52,11 +52,18 @@
 }
 .arrow-content-container-container {
     position: fixed;
+    text-align: right;
     top: 50px;
-    right: 285px;
-    color: rgb(255, 100, 100);
-    border: solid rgb(255, 100, 100) 1px;
-    background-color: rgb(50, 50, 50);
+    color: rgb(10, 100, 150);
+    border: solid rgb(10, 100, 150) 1px;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 99;
+}
+.arrow-education {
+    right: 272px;
+}
+.arrow-projects {
+    right: 415px;
 }
 .arrow-content-container {
     display: block;
@@ -68,6 +75,7 @@
 .content-base-container {
     display: flex;
     align-items: center;
+    justify-content: end;
     transition: all 0.25s ease-in-out;
     cursor: pointer;
     margin: 10px 0 8px 0;
@@ -85,7 +93,7 @@
 }
 .content-name {
     font-size: 16px;
-    margin: 0 0 6px 22px;
+    margin: 0 18px 6px 0;
     cursor: pointer;
     transition: all 0.25s ease-in-out;
 }

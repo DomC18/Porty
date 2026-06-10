@@ -1,43 +1,51 @@
+.education-container {
+    margin-top: 200px;
+    padding-top: 40px;
+}
+
 .education-label-container {
-    margin: 200px 40px 50px;
+    margin: 0 0 40px;
     border: none;
     border-style: solid;
-    border-color: rgb(245, 0, 0);
+    border-color: rgb(0, 80, 150);
     border-bottom-width: 10px;
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
 }
 .education-label {
-    font-size: 80px;
-    padding: 0px 0px 5px 0px;
-    margin-bottom: 24px;
-    color: rgb(245, 0, 0);
+    margin: 24px;
+    color: rgb(0, 80, 150);
 }
-.education-container {
-    padding-top: 40px;
-}
+
 .education-grid {
     width: auto;
-    row-gap: 100px;
+    gap: 40px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .education-card {
-    display: grid;
-    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+    border: solid 6px rgb(0, 100, 180);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .education-basic {
     margin: 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     vertical-align: middle;
+    justify-content: space-between;
+    gap: 8px;
 }
 .education-title {
-    margin: 0 8px 8px 0;
-    color: rgb(255,100,100);
+    margin: 0 8px 4px 0;
+    color: rgb(0, 100, 180);
 }
 .education-img {
     object-fit: contain;
@@ -48,26 +56,33 @@
     flex: 1;
 }
 .education-specs {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 8px;
+}
+.education-spec {
+    display: flex;
+    flex-direction: column;
 }
 .education-duration {
-    margin: 16px 0 12px 0;
-    color: rgb(255,100,100);
+    margin: 4px 0 4px 0;
+    color: rgb(0, 100, 180);
     display: inline-block;
+    text-align: right;
 }
 .education-gpa {
-    margin: 16px 24px 12px 0;
+    margin: 4px 0 4px 0;
     text-align: right;
-    color: rgb(255,100,100);
+    color: rgb(0, 100, 180);
     display: inline-block;
 }
 .education-role {
-    font-size: 30px;
+    font-size: 18px;
     margin-bottom: 0px;
-    margin-top: 14px;
+    margin-top: 0px;
     font-weight: 200;
-    color: rgb(150, 150, 150);
+    color: rgb(40, 80, 120);
 }
 .edu-dot {
     font-size: 30px;
@@ -75,8 +90,9 @@
 }
 .edu-role {
     display: inline-block;
+    cursor: pointer;
     font-weight: 300;
-    color: rgb(227, 227, 227)
+    color: rgb(40, 80, 120);
 }
 
 
@@ -85,12 +101,24 @@
 
 @media (min-width: 1389px) {
     .education-duration, .education-gpa {
-        font-size: 32px;
+        font-size: 16px;
     }
 }
 @media (max-width: 1388px) {
     .education-duration, .education-gpa {
-        font-size: 22px;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .education-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 899px) {
+    .education-grid {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -105,9 +133,6 @@
     .education-specs {
         display: flex;
     }
-    .education-basic {
-        justify-content: space-between;
-    }
 }
 @media (max-width: 1215px) {
     .education-card {
@@ -116,31 +141,40 @@
     .education-img {
         width: 0;
     }
-    .education-specs {
-        display: none;
-    }
-    .education-basic {
-        justify-content: center;
-    }
 }
 
 
 @media (min-width: 1274px) {
     .education-title {
-        font-size: 50px;
+        font-size: 32px;
     }
 }
 @media (max-width: 1274px) {
     .education-title {
-        font-size: 40px;
+        font-size: 28px;
     }
 }
 
 
 
-@media screen and (max-width: 900px) {
+@media (min-width: 788px) {
     .education-label {
-        font-size: 50px;
+        font-size: 80px;
+    }
+}
+@media (max-width: 787px) and (min-width: 698px) {
+    .education-label {
+        font-size: 70px;
+    }
+}
+@media (max-width: 697px) and (min-width: 608px) {
+    .education-label {
+        font-size: 60px;
+    }
+}
+@media (max-width: 607px) {
+    .education-label {
         text-align: center;
+        font-size: 50px;
     }
 }
