@@ -79,6 +79,19 @@
     border-radius: 20px;
     display: inline-block;
 }
+.project-image-readmore-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+/* .project-readmore-container {
+
+} */
+.project-readmore-link {
+    color: rgb(0, 100, 180);
+    cursor: pointer;
+}
 .project-image-container {
     flex: 1;
     transition: all 0.25s ease-in-out;
@@ -106,7 +119,6 @@
 .project-duration {
     color: rgb(0, 100, 180);
     text-align: right;
-    margin-bottom: 7px;
     margin-right: 10px;
 }
 .frc-link {

@@ -65,6 +65,24 @@
 .arrow-projects {
     right: 415px;
 }
+@media (min-width: 600px) {
+    .arrow-education {
+        right: 272px;
+    }
+    .arrow-projects {
+        right: 415px;
+    }
+}
+@media (max-width: 599px) {
+    .arrow-education {
+        right: 0;
+    }
+    .arrow-projects {
+        right: 0;
+    }
+}
+
+
 .arrow-content-container {
     display: block;
 }

@@ -9,10 +9,10 @@ body {
     font-family: "Poppins";
     margin: 0px;
     overflow-x: hidden;
-    /* -webkit-user-select: none;
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; */
+    user-select: none;
     position: relative;
     animation: beachGradient 15s ease infinite;
 }

@@ -91,8 +91,12 @@
 .edu-role {
     display: inline-block;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 600;
     color: rgb(40, 80, 120);
+    transition: all 0.25s ease-in-out;
+}
+.edu-role:hover {
+    font-size: 1.05em;
 }
 
 
