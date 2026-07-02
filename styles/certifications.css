@@ -1,0 +1,93 @@
+.certifications-container {
+    margin-top: 200px;
+    padding-top: 40px;
+}
+
+.certifications-label-container {
+    margin: 0 0 40px;
+    border: none;
+    border-style: solid;
+    border-color: rgb(0, 80, 150);
+    border-bottom-width: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.certifications-label {
+    margin: 24px;
+    color: rgb(0, 80, 150);
+}
+
+.certifications-grid {
+    width: auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr;
+}
+.certification-card {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    gap: 20px;
+    border: solid 6px rgb(0, 100, 180);
+    border-radius: 30px;
+}
+.certification-image-container {
+    display: block;
+    margin-left: 40px;
+}
+.certification-image {
+    width: 100px;
+    height: 100px;
+}
+
+.certification-main {
+    padding: 8px;
+}
+.certification-title {
+    font-weight: bold;
+    color: rgb(0, 80, 150);
+    font-size: 24px;
+    margin: 10px 0;
+}
+.certification-issue {
+    color: rgb(40, 80, 120);
+    margin: 8px 0;
+}
+.certification-link {
+    color: rgb(40, 80, 120);
+    text-decoration: underline;
+}
+.certification-id {
+    color: rgb(40, 80, 120);
+    margin: 8px 0;
+}
+
+
+
+@media (min-width: 788px) {
+    .certifications-label {
+        font-size: 80px;
+    }
+}
+@media (max-width: 787px) and (min-width: 698px) {
+    .certifications-label {
+        font-size: 70px;
+    }
+}
+@media (max-width: 697px) and (min-width: 608px) {
+    .certifications-label {
+        font-size: 60px;
+    }
+}
+@media (max-width: 607px) {
+    .certifications-label {
+        text-align: center;
+        font-size: 50px;
+    }
+    .certification-image-container {
+        display: none;
+    }
+}

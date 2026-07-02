@@ -85,9 +85,6 @@
     flex-direction: column;
     align-items: center;
 }
-/* .project-readmore-container {
-
-} */
 .project-readmore-link {
     color: rgb(0, 100, 180);
     cursor: pointer;
